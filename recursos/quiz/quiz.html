@@ -1,0 +1,53 @@
+<div class="quiz">
+  <div class="start-menu-screen">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="main-title">Quiz Game Title</h1>
+          <p class="sec-title">Escolha seu avatar para iniciar!</p>
+          <div class="row">
+            <div class="col-6">
+              <div class="moldura float-right" id="moldura-w" mob="girl">
+                <img src="assets/img/quiz/avatar/face-w.png" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="moldura float-left" id="moldura-m" mob="boy">
+                <img src="assets/img/quiz/avatar/face-m.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="game-screen">
+    <div class="avatar pointer">
+      <div class="normal"></div>
+      <div class="happy"></div>
+      <div class="calling"></div>
+      <div class="sad"></div>
+    </div>
+  </div>
+
+  <script id="quiz_settings" type="application/json">
+    {
+      "database": 
+      {
+        [
+          {
+            "Title": "Aqui vai o título da pergunta",
+            "Answers": 
+            [
+              {"Title": "Alternativa_correta",     "Points": 0},
+              {"Title": "Alternativa Incorreta A", "Points": 0},
+              {"Title": "Alternativa Incorreta B", "Points": 0},
+              {"Title": "Alternativa Incorreta C", "Points": 0}
+            ]
+          }
+        ]
+      }
+    }
+  </script>
+</div>

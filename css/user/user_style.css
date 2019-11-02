@@ -1,0 +1,39 @@
+/* FREE USER STYLE */
+
+body {
+  overflow-y: scroll;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    margin-top: 100px;
+  }
+}
+
+section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+  
+.image-responsive {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.color-box {
+  height: 100px;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.color-box p {
+  padding-top: 28px;
+}
+
+.listagem ul {
+  list-style: circle !important;
+  margin-left: 20px;
+}

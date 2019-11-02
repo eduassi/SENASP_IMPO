@@ -1,0 +1,257 @@
+<section class="section lss_quiz">
+	<div class="container" id="game_box">
+		<div class="row">
+			<div class="col-12 col-md-8 offset-md-2">
+				<div class="privew">
+					<div class="questionsBox">
+						<div class="questions" id="lettering"></div>
+						<ul class="answerList" id="choices_group"></ul>
+						<div class="questionsRow">
+							<button class="button" id="nextquestion">Próxima</button>
+							<span id="progress_lettering"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="demo_final">
+		<div class="row">
+			<div class="col-12 col-md-8 offset-md-2">
+				<div class="feedback-box" id="final_demo_a">
+					<h1>Você é muito permissivo no trânsito.</h1>
+					<p>
+						Pode até ser alguém educado para a segurança do trânsito, mas ainda não pode se considerar um educador de trânsito. 
+					</p>
+					<p>	
+						Conscientize-se de que as ações individuais não são suficientes para tornar o trânsito mais seguro, sendo necessária a colaboração de todos. 
+					</p>
+					<p>Estimule os outros a seguirem o seu exemplo de motorista seguro!</p>
+					
+					<img class="feedback-image" src="assets/images/identity/objects/lss_quiz/joao_sw.png" />
+				</div>
+				<div class="feedback-box" id="final_demo_b">
+					<h3>Você é permissivo no trânsito com certa frequência.</h3>
+					<p>
+						Embora não concorde com os comportamentos inseguros, não tem o
+						costume de cobrar as outras pessoas.
+					</p>
+					<p>
+						Procure fazê-lo de modo sutil, aproveitando as oportunidades para
+						disseminar a cultura de segurança do trânsito!
+					</p>
+
+					<img class="feedback-image" src="assets/images/identity/objects/lss_quiz/joao_bt.png" />
+				</div>
+				<div class="feedback-box" id="final_demo_c">
+					<h3>PARABÉNS!</h3>
+					<p>
+						Você é um verdadeiro EDUCADOR de trânsito, pois se preocupa tanto
+						com seu comportamento quanto com o dos outros.
+					</p>
+					<p>
+						Sua atitude transformadora é o ideal de todos os profissionais que
+						atuam na área, para que a segurança do trânsito seja uma realidade
+						no Brasil.
+					</p>
+					<p>Continue assim!</p>
+
+					<img class="feedback-image" src="assets/images/identity/objects/lss_quiz/joao_hh.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script id="database" type="application/json">
+		{
+			"settings": {
+				"questions": 10,
+				"answers": 3,
+				"randomize_questions": true,
+				"randomize_answers": true
+			},
+			"gamemode": {
+				"feedback_mode": true,
+				"feedback_rule": "min-max",
+				"feedbacks": [
+					{"bounds": [7,10], "target":"final_demo_a"},
+					{"bounds": [3,6], "target":"final_demo_b"},
+					{"bounds": [0,2], "target":"final_demo_c"}
+				]
+			},
+			"questions":[
+				{
+					"Title":"Quando alguém vai lhe deixar em algum lugar, com automóvel, e não existe vaga liberada para o embarque e desembarque:",
+					"Answers": [
+						{
+							"Title": "Não se incomoda em descer em local proibido, como fila dupla, contramão, na esquina ou em local sinalizado, desde que atenda à sua necessidade",
+							"Score": 1
+						},
+						{
+							"Title": "Demonstra à pessoa a sua insatisfação em ter de descer em local proibido, mas se convence de que não há outro jeito",
+							"Score": 0.5
+						},
+						{
+							"Title": "Convence o motorista a procurar um lugar permitido à parada de veículo, ainda que você tenha que andar um pouco mais para chegar ao seu destino",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Quando você está com um grupo de amigos em número superior à capacidade de passageiros do automóvel:",
+					"Answers": [
+						{
+							"Title": "Entra no carro assim mesmo, se arrumando como for possível, ainda que fique apertado e/ou um no colo do outro",
+							"Score": 1
+						},
+						{
+							"Title": "Tenta procurar uma solução mais adequada, sugerindo que dividam os passageiros nos veículos de outros amigos, mas, na impossibilidade, resigna-se com a situação",
+							"Score": 0.5
+						},
+						{
+							"Title": "Não concorda com a situação e chama um táxi para acomodar você e outros que se convenceram de seu argumento",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Se alguém lhe oferece uma carona de motocicleta, mas só tem um capacete de segurança:",
+					"Answers": [
+						{
+							"Title": "Se for a única forma de você se locomover até onde precisa, vai assim mesmo, sem capacete",
+							"Score": 1
+						},
+						{
+							"Title": "Aceita a carona, mas apenas porque o condutor decidiu ficar desprotegido e lhe ofereceu o único capacete disponível",
+							"Score": 0.5
+						},
+						{
+							"Title": "Mesmo que seja a única forma de locomoção, recusa a carona",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Quando um amigo lhe pede carona em seu automóvel, para ele e o filho, menor de sete anos, e você não possui o dispositivo de segurança adequado à idade da criança:",
+					"Answers": [
+						{
+							"Title": "Leva assim mesmo, por conta da amizade, sem comentar sobre o assunto",
+							"Score": 1
+						},
+						{
+							"Title": "Explica para o amigo que não pode levar a criança, por não possuir o dispositivo de segurança, mas realiza o transporte, frente à insistência dele",
+							"Score": 0.5
+						},
+						{
+							"Title": "Recusa terminantemente a realizar o transporte inseguro e explica que a sua decisão procura salvaguardar a vida do filho dele",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Quando você está de carona e o motorista ingeriu bebida alcoólica (independente da quantidade):",
+					"Answers": [
+						{
+							"Title": "Vai embora com ele assim mesmo, pois confia na direção dele",
+							"Score": 1
+						},
+						{
+							"Title": "Explica ao motorista sua preocupação e chama um táxi para você ir embora, permitindo que ele dirija sozinho",
+							"Score": 0.5
+						},
+						{
+							"Title": "Procura convencê-lo a passar a direção para alguém que não tenha bebido ou, então, a deixar o veículo em um estacionamento",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Quando você liga para o celular de alguém e a pessoa diz que está dirigindo:",
+					"Answers": [
+						{
+							"Title": "Continua falando normalmente",
+							"Score": 1
+						},
+						{
+							"Title": "Diz que não quer atrapalhar e, portanto, vai falar rapidinho",
+							"Score": 0.5
+						},
+						{
+							"Title": "Diz que liga depois ou, se for muito importante, pede para a pessoa estacionar para conversar com você",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Quando você está andando, na calçada, com outra pessoa e ela decide atravessar a rua fora da faixa de pedestres:",
+					"Answers": [
+						{
+							"Title": "Atravessa junto com ela, fora da faixa",
+							"Score": 1
+						},
+						{
+							"Title": "Deixa-a atravessar e continua, sozinho, até a faixa",
+							"Score": 0.5
+						},
+						{
+							"Title": "Explica o perigo de seu comportamento e procura convencê-la a atravessar na faixa",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Quando está em um automóvel (independente se na condição de motorista ou passageiro) e alguém não coloca o cinto de segurança (inclusive no banco traseiro):",
+					"Answers": [
+						{
+							"Title": "Fica quieto, pois já está fazendo a sua parte, utilizando o seu cinto de segurança",
+							"Score": 1
+						},
+						{
+							"Title": "Informa à pessoa a necessidade de utilização do cinto e deixa a critério dela a escolha",
+							"Score": 0.5
+						},
+						{
+							"Title": "Sendo você o motorista, não segue a marcha com o veículo, se a pessoa não colocar o cinto de segurança e, sendo você um dos passageiros, exige a utilização pela outra pessoa, dizendo que vai descer do automóvel, caso não atenda ao seu pedido",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Se você é passageiro e o motorista é imprudente, atendendo ao telefone celular, assistindo a um aparelho de DVD ou prestes a cometer qualquer infração de trânsito:",
+					"Answers": [
+						{
+							"Title": "Sente-se incomodado com o comportamento dele, mas prefere não falar nada (embora o risco lhe seja igualmente potencial)",
+							"Score": 1
+						},
+						{
+							"Title": "Deixa que ele continue no comportamento infracional e, na primeira oportunidade que tiver, comenta sobre o fato",
+							"Score": 0.5
+						},
+						{
+							"Title": "Procura impedir, prontamente, que o motorista adote o comportamento inseguro, alertando que ele está colocando a vida de todos os ocupantes do veículo em risco",
+							"Score": 0
+						}
+					]
+				},
+				{
+					"Title":"Se você está em uma excursão e o ônibus utilizado para levar o grupo a um passeio estiver em fila dupla:",
+					"Answers": [
+						{
+							"Title": "Entra assim mesmo no ônibus; afinal de contas, quem está cometendo a infração de trânsito é o motorista e não você",
+							"Score": 1
+						},
+						{
+							"Title": "Comenta com os outros sobre o cometimento da infração e/ou chama a atenção do motorista, mas entra no ônibus",
+							"Score": 0.5
+						},
+						{
+							"Title": "Conversa com o motorista, para tentar persuadi-lo a parar em local correto, ainda que mais distante e, na impossibilidade de convencimento, decide não entrar no ônibus e vai de táxi ao local de encontro do grupo",
+							"Score": 0
+						}
+					]
+				}
+			]
+		}
+	</script>
+</section>

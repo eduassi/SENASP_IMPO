@@ -1,0 +1,29 @@
+.destaque {
+	background: var(--INVISIBLE);
+	border: 3px solid var(--THEME_COLOR_PRIMARY_STRONG);
+	border-radius: 10px 10px 10px 10px;
+	max-width: 600px;
+}
+
+.destaque p {
+	color: var(--THEME_FONT_COLOR);
+	padding: 20px 40px 5px 40px;
+	text-align: left;
+	font-weight: 400;
+}
+
+.destaque img:first-child {
+	position: absolute;
+	width: 36px;
+	top: -19px;
+	left: -19px;
+}
+.destaque img:last-child {
+	position: absolute;
+	width: 36px;
+	bottom: -17px;
+	right: -18px;
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}

@@ -1,0 +1,334 @@
+blockquote {
+  position: relative;
+  /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+  padding-top: 60px;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin-bottom: 10px !important;
+  margin: 0 auto;
+  color: #706f6f;
+}
+
+@media (max-width: 576px) {
+  blockquote {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 10px !important;
+    margin: 0 auto;
+    color: #706f6f;
+  }
+
+  .modulo_1 blockquote:after {
+    margin-top: 50px;
+    background-image: url(../../assets/images/module_1/svg/citacao_inferior_m1.svg);
+  }
+
+  .progress-bar-container p {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .img-desktop img {
+    visibility: hidden;
+  }
+
+  .box-interno {
+    margin: 0;
+    padding: 0 1em !important;
+  }
+
+  .carousel {
+    padding: 10px !important;
+    border-radius: 10px !important;
+  }
+}
+
+blockquote:before,
+blockquote:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.quote-by {
+  color: #84775c;
+  text-align: right;
+  font-size: 13px;
+  font-style: italic;
+  display: block;
+  padding-right: 4em;
+  margin-bottom: 50px;
+}
+
+/* CORES MODULOS */
+
+.modulo_1 blockquote:before {
+  top: -5px;
+  background-image: url(../../assets/images/module_1/svg/citacao_superior_m1.svg);
+}
+
+.modulo_1 blockquote:after {
+  margin-top: 70px;
+  background-image: url(../../assets/images/module_1/svg/citacao_inferior_m1.svg);
+}
+
+.modulo_2 blockquote:before {
+  top: -5px;
+  background-image: url(../../assets/images/module_2/svg/citacao_superior_m2.svg);
+}
+
+.modulo_2 blockquote:after {
+  margin-top: 70px;
+  background-image: url(../../assets/images/module_2/svg/citacao_inferior_m2.svg);
+}
+
+.modulo_3 blockquote:before {
+  top: -5px;
+  background-image: url(../../assets/images/module_3/svg/citacao_superior_m3.svg);
+}
+
+.modulo_3 blockquote:after {
+  margin-top: 70px;
+  background-image: url(../../assets/images/module_3/svg/citacao_inferior_m3.svg);
+}
+
+.modulo_4 blockquote:before {
+  top: -5px;
+  background-image: url(../../assets/images/module_4/svg/citacao_superior_m4.svg);
+}
+
+.modulo_4 blockquote:after {
+  margin-top: 70px;
+  background-image: url(../../assets/images/module_4/svg/citacao_inferior_m4.svg);
+}
+
+.modulo_1,
+.modulo_2,
+.modulo_3,
+.modulo_4 {
+  color: var(--THEME_FONT_COLOR);
+}
+
+body,
+p,
+ul,
+ol {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+figcaption {
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+.modulo_1 p,
+.modulo_1 ul,
+.modulo_1 ol,
+.modulo_2 p,
+.modulo_2 ul,
+.modulo_2 ol,
+.modulo_3 p,
+.modulo_3 ul,
+.modulo_3 ol,
+.modulo_4 p,
+.modulo_4 ul,
+.modulo_4 ol {
+  color: var(--THEME_FONT_COLOR);
+  font-weight: 400;
+  margin-bottom: 2rem;   
+}
+
+.modulo_1 h1,
+.modulo_1 h2,
+.modulo_1 h3,
+.modulo_1 h4,
+.modulo_1 h5,
+.modulo_2 h1,
+.modulo_2 h2,
+.modulo_2 h3,
+.modulo_2 h4,
+.modulo_2 h5,
+.modulo_3 h1,
+.modulo_3 h2,
+.modulo_3 h3,
+.modulo_3 h4,
+.modulo_3 h5,
+.modulo_4 h1,
+.modulo_4 h2,
+.modulo_4 h3,
+.modulo_4 h4,
+.modulo_4 h5 {
+  margin-bottom: 1.75rem;
+}
+
+/*  H1  */
+.modulo_1 h1 {
+  background: linear-gradient(
+    var(--THEME_COLOR_MODULE_ONE_LIGHT),
+    var(--THEME_COLOR_MODULE_ONE_LIGHT)
+  );
+}
+
+.modulo_2 h1 {
+  background: linear-gradient(
+    var(--THEME_COLOR_MODULE_TWO_LIGHT),
+    var(--THEME_COLOR_MODULE_TWO_LIGHT)
+  );
+}
+
+.modulo_3 h1 {
+  background: linear-gradient(
+    var(--THEME_COLOR_MODULE_THREE_LIGHT),
+    var(--THEME_COLOR_MODULE_THREE_LIGHT)
+  );
+}
+
+.modulo_4 h1 {
+  background: linear-gradient(
+    var(--THEME_COLOR_MODULE_FOUR_LIGHT),
+    var(--THEME_COLOR_MODULE_FOUR_LIGHT)
+  ); 
+}
+
+.modulo_1 h1,
+.modulo_2 h1,
+.modulo_3 h1,
+.modulo_4 h1 {
+  width: 100%;
+  text-transform: normal;
+  font-weight: 600;
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 1.75rem;
+  font-size: 25px;
+}
+
+/*  H2  */
+.modulo_1 h2 {
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_ONE),
+    var(--THEME_COLOR_MODULE_ONE)
+  );
+}
+
+.modulo_2 h2 {
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_TWO),
+    var(--THEME_COLOR_MODULE_TWO)
+  );
+}
+
+.modulo_3 h2 {
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_THREE),
+    var(--THEME_COLOR_MODULE_THREE)
+  );
+}
+
+.modulo_4 h2 {
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_FOUR),
+    var(--THEME_COLOR_MODULE_FOUR)
+  );
+}
+
+.modulo_1 h2,
+.modulo_2 h2,
+.modulo_3 h2,
+.modulo_4 h2 {
+  text-transform: uppercase;
+  background-position: 0 0;
+  background-size: 80px 5px;
+  background-repeat: no-repeat;  
+  padding-top: 5px;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*  H3  */
+.modulo_1 h3 {
+  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_ONE_LIGHT),
+    var(--THEME_COLOR_MODULE_ONE_LIGHT)
+  );
+}
+
+.modulo_2 h3 {
+  color: var(--THEME_COLOR_MODULE_TWO);
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_TWO),
+    var(--THEME_COLOR_MODULE_TWO)
+  );
+}
+
+.modulo_3 h3 {
+  color: var(--THEME_COLOR_MODULE_THREE);
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_THREE),
+    var(--THEME_COLOR_MODULE_THREE)
+  );
+}
+
+.modulo_4 h3 {
+  color: var(--THEME_COLOR_MODULE_FOUR);
+  background-image: linear-gradient(
+    var(--THEME_COLOR_MODULE_FOUR),
+    var(--THEME_COLOR_MODULE_FOUR)
+  );
+}
+
+.modulo_1 h3,
+.modulo_2 h3,
+.modulo_3 h3,
+.modulo_4 h3 {
+  background-position: bottom left;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*  H4  */
+.modulo_1 h4 {
+  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+
+.modulo_2 h4 {
+  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+
+.modulo_3 h4 {
+  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+
+.modulo_4 h4 {
+  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+
+.modulo_1 h4,
+.modulo_2 h4,
+.modulo_3 h4,
+.modulo_4 h4 {
+  font-size: 15px;
+  font-weight: 400;
+}

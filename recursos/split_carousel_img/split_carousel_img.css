@@ -1,0 +1,30 @@
+.text-item.not-active{
+    display: none;
+}
+.split_carousel_img .split_button{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.split_carousel_img .split_text_box{
+    min-height: 320px;
+    border: 6px solid var(--THEME_COLOR_PRIMARY);
+    background: var(--THEME_COLOR_TERTIARY) !important;
+    border-radius: 15px;
+    padding: 10px !important;
+}
+
+
+@media (max-width: 767px) 
+{
+    .split_carousel_img .split_button{
+        height: 100px;
+        width: 100px;
+    }
+    .split_carousel_img .split_text_box{
+        padding: 5px !important;
+    }
+}

@@ -1,0 +1,49 @@
+.no-overflow{
+    overflow: hidden;
+}
+.flipster_slides{
+    white-space:nowrap;
+    display: inline-flex;    
+    margin-left: 20vw;
+}
+.flipster-set{
+    height: 300px;
+    width: 240px;
+    display: flex;
+    float: left;
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+    transition: transform 0.8s;    
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    cursor: pointer;
+    z-index: 0;
+}
+
+
+
+.flipster-set.active{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: default;
+    z-index: 1;
+}
+
+.flipster_slide{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Karma', serif;
+    color:#333;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 8px;
+    border: 2px solid var(--THEME_COLOR_SECONDARY);
+    background: var(--THEME_COLOR_TERTIARY);
+}

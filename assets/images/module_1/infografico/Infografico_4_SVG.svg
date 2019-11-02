@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 296.4 165.8" style="enable-background:new 0 0 296.4 165.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.1;fill:#FDC62F;}
+	.st1{opacity:0.3;fill:#FCC62F;}
+	.st2{fill:none;}
+	.st3{opacity:0.8;}
+	.st4{fill:#3C3C3B;}
+	.st5{font-family:'Poppins-SemiBold';}
+	.st6{font-size:10px;}
+	.st7{fill:#706F6F;}
+	.st8{font-size:8px;}
+	.st9{font-family:'OpenSans-Regular';}
+	.st10{fill:none;stroke:#FCC62F;stroke-miterlimit:10;}
+	.st11{fill:#FCC62F;stroke:#FCC62F;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#FCC62F;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M289.4,165.8H7c-3.9,0-7-3.1-7-7V7c0-3.9,3.1-7,7-7h282.4c3.9,0,7,3.1,7,7v151.8
+	C296.4,162.7,293.2,165.8,289.4,165.8z"/>
+<path class="st1" d="M94.1,76H32.5V55.2h61.6c2.5,0,4.5,2,4.5,4.5v11.8C98.6,74,96.6,76,94.1,76z"/>
+<path class="st1" d="M200.2,76h-61.6V55.2h61.6c2.5,0,4.5,2,4.5,4.5v11.8C204.7,74,202.7,76,200.2,76z"/>
+<rect x="32.5" y="18" class="st2" width="231.5" height="22.5"/>
+<text transform="matrix(1 0 0 1 36.4921 25.3699)" class="st3"><tspan x="0" y="0" class="st4 st5 st6">Conteúdos e conceitos abordados nos anos </tspan><tspan x="13.3" y="12" class="st4 st5 st6">iniciais e finais do Ensino Fundamental</tspan></text>
+<rect x="41" y="62.4" class="st2" width="65" height="9.2"/>
+<text transform="matrix(1 0 0 1 40.9574 68.3341)" class="st7 st5 st8">Anos Iniciais</text>
+<rect x="64.1" y="84.8" class="st2" width="60.4" height="8.2"/>
+<text transform="matrix(1 0 0 1 64.1339 90.924)" class="st7 st9 st8">Os lugares</text>
+<rect x="64.1" y="110" class="st2" width="60.4" height="7.3"/>
+<text transform="matrix(1 0 0 1 64.1339 116.0479)" class="st7 st9 st8">A Cidade</text>
+<rect x="64.1" y="132.5" class="st2" width="42.7" height="16.1"/>
+<text transform="matrix(1 0 0 1 64.1339 138.6102)"><tspan x="0" y="0" class="st7 st9 st8">O direito </tspan><tspan x="0" y="9.6" class="st7 st9 st8">de ir e vir</tspan></text>
+<rect x="169.7" y="85.4" class="st2" width="94.3" height="9.2"/>
+<text transform="matrix(1 0 0 1 169.6719 91.4542)" class="st7 st9 st8">As linguagens do trânsito</text>
+<rect x="169.7" y="110" class="st2" width="93.1" height="8.3"/>
+<text transform="matrix(1 0 0 1 169.6714 116.1222)" class="st7 st9 st8">Segurança no trânsito</text>
+<rect x="169.7" y="133.1" class="st2" width="90.9" height="16.2"/>
+<text transform="matrix(1 0 0 1 169.6713 139.1781)"><tspan x="0" y="0" class="st7 st9 st8">Convivência social </tspan><tspan x="0" y="9.6" class="st7 st9 st8">no trânsito</tspan></text>
+<rect x="148.2" y="62" class="st2" width="60.4" height="9.2"/>
+<text transform="matrix(1 0 0 1 148.1768 67.9404)" class="st7 st5 st8">Anos Finais</text>
+<line class="st10" x1="33.7" y1="88.5" x2="52.6" y2="88.5"/>
+<circle class="st11" cx="54.3" cy="88.5" r="3.7"/>
+<line class="st10" x1="33.7" y1="113.6" x2="52.6" y2="113.6"/>
+<circle class="st11" cx="54.3" cy="113.6" r="3.7"/>
+<line class="st10" x1="33.7" y1="138.2" x2="52.6" y2="138.2"/>
+<circle class="st11" cx="54.3" cy="138.2" r="3.7"/>
+<line class="st12" x1="33.7" y1="55.2" x2="33.7" y2="138.7"/>
+<line class="st10" x1="139.1" y1="88.5" x2="158" y2="88.5"/>
+<circle class="st11" cx="159.7" cy="88.5" r="3.7"/>
+<line class="st10" x1="139.1" y1="113.6" x2="158" y2="113.6"/>
+<circle class="st11" cx="159.7" cy="113.6" r="3.7"/>
+<line class="st10" x1="139.1" y1="138.2" x2="158" y2="138.2"/>
+<circle class="st11" cx="159.7" cy="138.2" r="3.7"/>
+<line class="st12" x1="139.1" y1="55.9" x2="139.1" y2="138.7"/>
+</svg>

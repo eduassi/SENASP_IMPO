@@ -1,0 +1,291 @@
+﻿header {
+	height: auto;
+	background: none;
+	padding: unset;
+	text-align: unset;
+}
+
+header .navbar {
+	background-color: #f4f4f4;
+}
+.fixed-top{
+	max-width: 100vw;
+}
+
+.chapter-display {
+	position: absolute;
+	width: 100%;
+	z-index: -9;
+}
+
+.next-mod-button {
+	float: right;
+	height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.next-mod-button img{
+	padding-bottom: 15px;
+}
+
+.pdf-icon{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+	margin-right:20px;
+	display: inline-block;
+	background:#575757;
+	mask: url(../../assets/images/module_common/pdf-icon.svg) center / contain no-repeat;
+	-webkit-mask: url(../../assets/images/module_common/pdf-icon.svg) center / contain no-repeat;
+}
+
+.pdf-icon:hover,
+.pdf-icon:focus {
+  background: #333;
+}
+
+.logo-dnit {
+	width: auto;
+	margin-right: 20px;
+}
+
+.logo-dnit:hover {
+	filter: saturate(150%);
+}
+
+.logo-dnit-small {
+	width: 50px;
+	margin-right: 20px;
+}
+
+.paginacao-links {
+	font-family: 'Roboto Slab', serif;
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+/* NAVEGAÇÃO DOS CAPÍTULOS */
+.capitulos-header {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+a.capitulo-link {
+	font-size: 26px;
+	text-decoration: none !important;
+	color: #575757;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 2px;
+}
+
+.ball-item-holder {
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.ball-item-holder .ball-item {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	align-items: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+
+
+.ball-item-holder a {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	text-align: center;
+	padding-top: 3px;
+	font-size: 16px;
+}
+
+
+/* CONFIG PARA BOLINHAS */
+.ball-item-holder .ball-item {
+	background-color: rgb(173, 173, 173);
+	border-radius: 100%;
+}
+
+/* CONFIG PARA BOLINHAS ATIVAS */
+.ball-item-holder .ball-item.active {
+	background: #575757;
+	border-radius: 50%;
+	color: white;
+}
+
+/* CONFIG PARA BOLINHAS EM HOVER */
+.ball-item-holder .ball-item:not(.active) a.capitulo-link:hover {
+	color: #fff;
+	background-color: #888;
+	border-radius: 100%;
+}
+
+
+
+
+/* MENU */
+.btn-menu {
+	font-family: 'Roboto Slab', serif;
+	line-height: 48px;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	background: linear-gradient(#d7d7d7, #d7d7d7);
+	background-size: 170px 100%;
+	background-repeat: no-repeat;
+	overflow: inherit;
+}
+
+.btn-menu:hover {
+	background: linear-gradient(#ddd, #ddd);
+	background-size: 170px 100%;
+	background-repeat: no-repeat;
+}
+
+.btn-menu::after {
+	min-height: 90px;
+	height: 100%;
+	content: "";
+	width: 50px;
+	transform: skew(15deg);
+	margin-left: 10px;
+	z-index: -99;
+}
+
+@media screen and (max-width: 991px) {
+	.btn-menu::after {
+		min-height: 60px;
+	}
+	.capitulos-header {
+		display: none;
+	}
+	.logo-pdf{
+		max-width: 40px;
+		margin-right: 10px;
+		margin-top: .25rem !important;
+
+	}
+	svg.icone-hamburguer {
+		width: 40px;
+		height: 40px;
+	}
+	.btn-menu {
+		background-size: 90px 100%;
+	}
+	.btn-menu:hover {
+		background-size: 90px 100%;
+	}
+	.pdf-icon{
+		max-height: 40px;
+		width: 30px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.chapter-display {
+		display: none;
+	}
+}
+
+a.btn-menu {
+	text-decoration: none !important;
+	color: #575757;
+}
+
+.icone-hamburguer {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	fill: #575757;
+}
+
+.header_breadcrumb {
+	padding-left: 30px;
+	max-width: 240px;
+	text-align: initial;
+}
+
+.header_numero_modulo {
+	font-weight: bold;
+	color: #333;
+	font-size: 0.5em;
+	margin-left: -35px;
+	padding-left: 35px;
+	background-position: bottom left;
+	background-size: 120px 2px;
+	background-repeat: no-repeat;
+}
+
+.header_numero_modulo_resumido {
+	font-weight: bold;
+	color: #333;
+	font-size: 0.5em;
+	margin-left: -65px;
+	position: relative;	
+}
+
+.header_titulo_modulo {
+	color: #575757;
+	font-size: 0.5em;
+	line-height: 1.2em;
+	margin-top: 3px;
+}
+
+.modulo_1 .btn-menu a:hover,
+.modulo_2 .btn-menu a:hover,
+.modulo_3 .btn-menu a:hover,
+.modulo_4 .btn-menu a:hover {
+	text-decoration: none !important;
+}
+
+/*  CORES MÓDULO 1  */
+.modulo_1 .btn-menu::after {
+	background: var(--THEME_COLOR_MODULE_ONE);
+}
+.modulo_1 .header_numero_modulo {
+	background-image: linear-gradient(
+		var(--THEME_COLOR_MODULE_ONE),
+		var(--THEME_COLOR_MODULE_ONE)
+	);
+}
+
+/*  CORES MÓDULO 2  */
+.modulo_2 .btn-menu::after {
+	background: var(--THEME_COLOR_MODULE_TWO);
+}
+.modulo_2 .header_numero_modulo {
+	background-image: linear-gradient(
+		var(--THEME_COLOR_MODULE_TWO),
+		var(--THEME_COLOR_MODULE_TWO)
+	);
+}
+
+/*  CORES MÓDULO 3  */
+.modulo_3 .btn-menu::after {
+	background: var(--THEME_COLOR_MODULE_THREE);
+}
+.modulo_3 .header_numero_modulo {
+	background-image: linear-gradient(
+		var(--THEME_COLOR_MODULE_THREE),
+		var(--THEME_COLOR_MODULE_THREE)
+	);
+}
+
+/*  CORES MÓDULO 4  */
+.modulo_4 .btn-menu::after {
+	background: var(--THEME_COLOR_MODULE_FOUR);
+}
+.modulo_4 .header_numero_modulo {
+	background-image: linear-gradient(
+		var(--THEME_COLOR_MODULE_FOUR),
+		var(--THEME_COLOR_MODULE_FOUR)
+	);
+}

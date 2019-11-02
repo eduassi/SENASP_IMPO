@@ -1,0 +1,40 @@
+/* INICIO PARA PENSAR */
+.para-pensar {
+	background: white;
+	border: 3px solid var(--THEME_COLOR_SECONDARY);
+	border-radius: 10px 10px 10px 10px;
+	max-width: 600px;
+}
+.para-pensar p {
+	color: var(--THEME_FONT_COLOR);
+	text-align: left;
+	font-weight: 400;
+}
+.para-pensar img:first-child {
+	position: absolute;
+	width: 70px;
+	top: -23px;
+	left: -36px;
+}
+.para-pensar img:last-child {
+	position: absolute;
+	width: 36px;
+	bottom: -17px;
+	right: -17px;
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(0deg);
+}
+.para-pensar-body {
+	position: relative;
+	padding: 40px 40px 20px 40px;
+	text-align: left;
+}
+.titulo-para-pensar {
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Open Sans', serif;
+	color: var(--THEME_COLOR_PRIMARY);
+	font-weight: bold;
+}
+/* FIM PARA PENSAR */

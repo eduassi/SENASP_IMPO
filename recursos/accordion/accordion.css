@@ -1,0 +1,12 @@
+.card-header{
+    background: var(--THEME_COLOR_PRIMARY);
+    border-color: var(--THEME_COLOR_AUX);
+
+    background-image: url(../../assets/img/identidade/arrow-black-down.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-size: 30px;
+}
+.card-header.collapsed{
+    background-image: url(../../assets/img/identidade/arrow-black-left.png);
+}

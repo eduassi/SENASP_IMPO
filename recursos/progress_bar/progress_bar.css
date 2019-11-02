@@ -1,0 +1,37 @@
+.text-item.not-active{
+    display: none;
+}
+
+.progress-bar-container{
+    border: 1px solid var(--THEME_COLOR_AUX_STRONG);
+    padding: 15px;
+}
+.progress{
+    height: 2rem !important;
+}
+
+.button-panel{
+    position: relative;
+    float: right;
+    width: 100%;
+    margin-bottom: 55px; 
+}
+
+.radial-bt{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: var(--THEME_COLOR_LINK);    
+    color: white;
+    font-size: 30px;
+    border: 0;
+}
+
+.progress-next{
+    right: 10%;
+}
+
+.progress-prev{
+    right: 25%;
+}

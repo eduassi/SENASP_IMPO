@@ -1,0 +1,29 @@
+.puzzle_container{
+    position: relative;
+    width: 100%;
+}
+.puzzle-cell{
+    background: #00000025;
+    border: 1px solid gray;
+    margin: 1px;
+}
+
+.puzzle-piece{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+}
+
+.puzzle .puzzle-cell.complete{
+    border: 0;
+    margin: 0;
+}
+
+.puzzle .puzzle-piece.complete{
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    top: unset !important;
+    left: unset !important;
+}

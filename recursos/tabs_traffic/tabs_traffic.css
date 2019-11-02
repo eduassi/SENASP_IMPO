@@ -1,0 +1,27 @@
+.tab-content{
+    background-color: var(--THEME_COLOR_QUINTIARY);
+    padding: 20px;
+}
+
+.nav-item>a.active{
+    background-color: var(--THEME_COLOR_QUINTIARY) !important;
+    border-bottom-color: var(--THEME_COLOR_QUINTIARY) !important;
+}
+
+.nav-item>a:hover{
+    background-color: var(--THEME_COLOR_QUINTIARY) !important;
+    border-bottom-color: var(--THEME_COLOR_QUINTIARY) !important;
+}
+
+.nav-link{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #212529;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 !important;
+    font-size: 21px;
+    line-height: 28px;
+}
+

@@ -1,0 +1,6 @@
+.jesus_slider_ball .text-item:not(.active){
+    display: none;
+}
+.jesus_slider_ball .slide_ball{
+    cursor: pointer;
+}

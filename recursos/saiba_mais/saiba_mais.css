@@ -1,0 +1,78 @@
+
+.saiba-mais,
+.case,
+.reflexao,
+.glossario {
+	width: 100%;
+	height: auto;
+	padding-top: 70px;
+}
+.saiba-mais {
+	background: url(../../assets/img/identidade/mais.png) top left no-repeat;
+}
+.case {
+	background: url(../../assets/img/identidade/case.png) top left no-repeat;
+}
+.reflexao {
+	background: url(../../assets/img/identidade/reflexao.png) top left no-repeat;
+}
+.glossario {
+	background: url(../../assets/img/identidade/glossario.png) top left no-repeat;
+}
+
+.saiba-mais p,
+.case p,
+.reflexao p,
+.glossario p {
+	margin: 0;
+	text-align: justify;
+}
+.saiba-mais .bgl,
+.saiba-mais .bgr,
+.case .bgl,
+.case .bgr,
+.reflexao .bgl,
+.reflexao .bgr,
+.glossario .bgl,
+.glossario .bgr {
+	width: 100%;
+	height: auto;
+}
+.saiba-mais .bgl,
+.case .bgl,
+.reflexao .bgl,
+.glossario .bgl {
+	background: url(../../assets/img/identidade/mais-left-bottom.png) bottom left
+		no-repeat;
+}
+.saiba-mais .bgr,
+.case .bgr,
+.reflexao .bgr,
+.glossario .bgr {
+	background: url(../../assets/img/identidade/mais-right-top.png) top right
+		no-repeat;
+	padding: 10px 15px;
+}
+
+.saiba-mais a,
+.case a,
+.reflexao a,
+.glossario a {
+	color: var(--THEME_COLOR_LINK) !important;
+}
+
+.copyright {
+	position: relative;
+	background: var(--THEME_COLOR_QUARTIARY);
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.copyright p {
+	color: white;
+}
+.icon-touch {
+	position: absolute;
+	z-index: 1;
+	top: 30px;
+	right: 10px;
+}

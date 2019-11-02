@@ -1,0 +1,13 @@
+.jesus_slider_no_arrow .text-item:not(.active){
+    display: none;
+}
+.jesus_slider_no_arrow .slide_ball{
+    cursor: pointer;
+}
+.jesus_slider_no_arrow .active .slide_ball{
+    background: var(--THEME_COLOR_PRIMARY);
+}
+.jesus_slider_no_arrow .jesus-set:not(.active) .slide_ball{
+    height: 80%;
+    width: 80%;
+}

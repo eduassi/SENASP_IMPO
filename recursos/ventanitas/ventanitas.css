@@ -1,0 +1,32 @@
+.ventana{
+  display: none;
+}
+.ventana.active{
+  display: block;
+}
+.ventanita-show{
+  width: 100%;
+  min-height: 40px;
+  background: var(--THEME_COLOR_PRIMARY); 
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  padding: 6px;
+  color: white;
+  font-weight: 400; 
+  cursor: pointer;
+}
+.ventanita-box .active{
+  background: var(--THEME_COLOR_SECONDARY); 
+  color:var(--THEME_FONT_COLOR);
+}
+
+.ventanita-caract{
+  width: 100%;
+  min-height: 230px;
+  padding: 10px 20px;
+  background: var(--THEME_COLOR_TERTIARY);     
+}
+.ventanita-1, .ventanita-2, .ventanita-3, .ventanita-4, .ventanita-5{
+  display: none;
+}

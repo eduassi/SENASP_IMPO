@@ -1,0 +1,19 @@
+.jesus_slider_no_arrow_hexagon .text-item:not(.active){
+    display: none;
+}
+.jesus_slider_no_arrow_hexagon .slide_ball{
+    cursor: pointer;
+}
+.jesus_slider_no_arrow_hexagon .active .slide_ball{
+    background: var(--THEME_COLOR_PRIMARY);
+}
+.jesus_slider_no_arrow_hexagon .active .slide_ball_left{
+    background: var(--THEME_COLOR_PRIMARY);
+}
+.jesus_slider_no_arrow_hexagon .active .slide_ball_right{
+    background: var(--THEME_COLOR_PRIMARY);
+}
+.jesus_slider_no_arrow_hexagon .jesus-set:not(.active) .slide_ball{
+    height: 80%;
+    width: 80%;
+}

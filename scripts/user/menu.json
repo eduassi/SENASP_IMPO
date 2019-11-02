@@ -1,0 +1,37 @@
+﻿{
+  "information": {
+    "modulo-numero": "MÓDULO 1",
+    "modulo-resumido": "M1",
+    "modulo-nome": "Cardápio Base"
+  },
+  "configuration": {
+    "target": "#menu_item_list",
+    "start-level": 0,
+    "max-level": 4,
+    "min-level": 0,
+    "prefix-name": "pages/capitulo_"
+  },
+  "pages": [
+    {
+      "placeholder": "Apresentação",
+      "url": "pages/capitulo_0.html"
+    },
+    {
+      "placeholder": "Gride",
+      "url": "pages/capitulo_1.html"
+    },
+    {
+      "placeholder": "Componentes",
+      "url": "pages/capitulo_2.html"
+    }
+    ,
+    {
+      "placeholder": "Jogos",
+      "url": "pages/capitulo_3.html"
+    },
+    {
+      "placeholder": "Animações",
+      "url": "pages/capitulo_4.html"
+    }
+  ]
+}

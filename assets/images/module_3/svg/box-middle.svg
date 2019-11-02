@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 303 600"  xml:space="preserve">
+<style>
+  .box-border {
+    fill: #e30613;
+}
+
+.box-background {
+    fill: #fff;
+}
+</style>
+  <path class="box-background" d="M2.5-0.3V2v229.1l0.2,369.2h297.6c0-2.1,0-4.1,0-6v-28.7v-57.4l0.1-229.6l0.2-279L2.5-0.3
+	L2.5-0.3z"/>
+  
+  <path class="box-border" d="M5.8,225.8c0-75.4,0-150.7,0.1-226.1H2.5V2v229.1l0.2,369.2h3C5.7,475.5,5.8,350.6,5.8,225.8z"/>
+  
+  <path class="box-border" d="M298.7-0.3l0.2,278.7l0.1,229.5v57.4V594c0,2.2,0,4.3,0,6.4h1.4c0-2.1,0-4.1,0-6v-28.7v-57.4
+	l0.1-229.6l0.2-279L298.7-0.3L298.7-0.3z"/>
+  
+</svg>

@@ -1,0 +1,138 @@
+.quiz {
+  position: relative;
+  height: 85vh;
+  width: 100vw;
+}
+
+.quiz .main-title{
+    text-align: center;
+    padding-top: 25px;
+}
+.quiz .sec-title{
+    text-align: center;
+    font-size: 20px;
+}
+.quiz .moldura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 100px;
+    width: 100%;
+    max-width: 100px;
+    cursor: pointer;
+}
+.quiz #moldura-w{
+    background-image: linear-gradient(to left top, #ff00ff,#ffffff);
+    border: 2px solid #990299;
+}
+.quiz #moldura-m{
+    background-image: linear-gradient(to right top, #0a68c0, #ffffff);
+    border: 2px solid #043b6e;
+}
+
+.quiz .moldura img{
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.quiz #moldura-w:hover { 
+    border-color: green;
+    background-image: linear-gradient(to right top, green,#ffffff);
+}
+.quiz #moldura-m:hover { 
+    border-color: green;
+    background-image: linear-gradient(to left top, green,#ffffff);
+}
+
+.start-menu-screen{
+    background: var(--THEME_COLOR_QUINTIARY);
+    height: 100%;
+    width: 100%;
+}
+
+.game-screen {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background: url(../../assets/img/quiz/objects/quiz-bg.jpg) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 0;
+  width: 32.08%;
+  height: 70.83%;
+  max-width: 210px;
+  max-height: 310px;
+}
+
+
+.normal,
+.happy,
+.calling,
+.sad {
+  width: 100%;
+  height: 100%;
+}
+
+.woman_area {
+  background: #ccc;
+}
+
+.avatar.girl .normal{
+  z-index: 10;
+  background: url(../../assets/img/quiz/avatar/quiz-wn.png) bottom center no-repeat;
+  background-size: 100%;
+  display: block;
+}
+.avatar.girl .happy{
+  z-index: 11;
+  background: url(../../assets/img/quiz/avatar/quiz-wr.png) bottom center no-repeat;
+  background-size: 100%;
+  display: none;
+}
+.avatar.girl .calling{
+  z-index: 12;
+  background: url(../../assets/img/quiz/avatar/quiz-wv.png) bottom center no-repeat;
+  background-size: 100%;
+  display: none;
+}
+.avatar.girl .sad{
+  z-index: 13;
+  background: url(../../assets/img/quiz/avatar/quiz-ww.png) bottom center no-repeat;
+  background-size: 100%;
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.avatar.boy .normal{
+  z-index: 10;
+  background: url(../../assets/img/quiz/avatar/quiz-mn.png) bottom center no-repeat;
+  background-size: 100%;
+  display: block;
+}
+.avatar.boy .happy{
+  z-index: 11;
+  background: url(../../assets/img/quiz/avatar/quiz-mr.png) bottom center no-repeat;
+  background-size: 100%;
+  display: none;
+}
+.avatar.boy .calling{
+  z-index: 12;
+  background: url(../../assets/img/quiz/avatar/quiz-mv.png) bottom center no-repeat;
+  background-size: 100%;
+  display: none;
+}
+.avatar.boy .sad{
+  z-index: 13;
+  background: url(../../assets/img/quiz/avatar/quiz-mw.png) bottom center no-repeat;
+  background-size: 100%;
+  display: none;
+}

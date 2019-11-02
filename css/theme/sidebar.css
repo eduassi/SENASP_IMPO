@@ -1,0 +1,136 @@
+﻿#basicSidebar {
+    z-index: 1031;
+    padding:0;
+}
+
+.pmd-sidebar-overlay {
+    z-index: 1030;
+}
+
+#sidebar ul{
+    margin-bottom:0;
+}
+.sumario-titulo {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    color: #888;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sidebar ul li a {
+    border-bottom: 1px solid #f8f9fa;
+    color:#575757;
+}
+
+ul#menu_item_list li a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+ul#menu_item_list li:hover {
+    background-color: #efefef;
+}
+
+.pmd-sidebar a {
+    text-decoration: unset !important;
+}
+
+.sidebar-header {
+    border-bottom: 1px solid #e9ecef;
+    color:#575757;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.sidebar-header a {
+    text-decoration: unset;
+}
+
+.sidebar-titulo-modulos {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+.fechar-hamburguer {
+    color: #666;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.divider {
+    height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+
+#sidebar ul.components-2,
+#sidebar ul.components-3 {
+    font-size:0.9em !important;
+}
+
+#sidebar ul.components-2 a,
+#sidebar ul.components-3 a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* CORES DOS MÓDULOS */
+#sidebar ul li a.active {
+    background-color: #efefef;
+}
+
+.modulo_1 #sidebar ul li a.active {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_ONE);
+}
+.modulo_2 #sidebar ul li a.active {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_TWO);
+}
+.modulo_3 #sidebar ul li a.active {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_THREE);
+}
+.modulo_4 #sidebar ul li a.active {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_FOUR);
+}
+
+.modulo_1 #sidebar ul li a:hover {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_ONE);
+}
+.modulo_2 #sidebar ul li a:hover {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_TWO);
+}
+.modulo_3 #sidebar ul li a:hover {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_THREE);
+}
+.modulo_4 #sidebar ul li a:hover {
+    border-left: 15px solid var(--THEME_COLOR_MODULE_FOUR);
+}
+
+.modulo_1 .sidebar-header {
+    background-color: var(--THEME_COLOR_MODULE_ONE);
+}
+
+.modulo_2 .sidebar-header {
+    background-color: var(--THEME_COLOR_MODULE_TWO);
+}
+
+.modulo_3 .sidebar-header {
+    background-color: var(--THEME_COLOR_MODULE_THREE);
+}
+
+.modulo_4 .sidebar-header {
+    background-color: var(--THEME_COLOR_MODULE_FOUR);
+}
