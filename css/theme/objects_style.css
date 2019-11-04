@@ -151,56 +151,108 @@
 
 
 
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+
 /* DESTAQUES */
-
-.box-destaque{
-  width: 100%;
-  height: auto;
-  padding-top: 70px;
-}
-.saiba-mais{
-  background: url(../assets/images/module_common/iconografia-saiba-mais.png) top left no-repeat;
-}
-
-
-
-.box-destaque{
+.caixa-destaque{
   position: relative;
   widows: 100%;
-  min-height: 200px;
-  padding-top: 40px;
-  padding-left: 60px;
-  background: #f3f3f3;
+  min-height: 150px;
+  padding: 15px;
+  padding-top:25px;
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+  border-bottom-left-radius: 30px;
 }
 
-.box-destaque-txt{
-  position: relative;
-  widows: auto;
-  height: auto;
-  border: 2px solid var(--THEME_COLOR_MODULE_ONE_STRONG); 
-}
-
-.dtq-na-pratica, .patch{
+.caixa-destaque-icone{
   position: absolute;
-  left:0;
   top:0;
   bottom: 0;
   margin-top:auto;
-  margin-bottom: auto;
-  z-index:1;
-}
-
-.dtq-na-pratica{
+  margin-bottom: auto;  
   width: 100px;
   height: 100px;
-  border-radius: 100%;
-  
-  border: 2px solid var(--THEME_COLOR_MODULE_ONE_STRONG); 
+  border-radius: 100%;  
+  left:-100px;  
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+  z-index:1;
+}
+.caixa-destaque-icone img{
+  width: 100%;
+  height: 100%;
+}
+.caixa-destaque-title{
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  top:-15px;
+  right: 20px;
+  background: white;
+  font-family: 'Roboto Slab', serif;
+  color: var(--THEME_COLOR_MODULE_ONE);
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE);
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 18px; 
+  z-index:3;
+}
+.patch{
+  position: absolute;
+  width:10px;
+  height:20px;
+  top:0;
+  bottom: 0;
+  margin-top:auto;
+  margin-bottom: auto;  
+  z-index:2;
+  left:-5px;
 }
 
-.patch{
-  z-index:2;
-  left:158px;
+
+@media only screen and (max-width: 767px) {
+
+  .caixa-destaque{
+    margin-top:100px;
+  }
+  
+  .caixa-destaque-icone{
+    position: absolute;
+    top:-60px;
+    left: 15px;
+    bottom: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;    
+    border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+    z-index:1;
+  }
+
+ 
+
+
+  
+  .patch{
+    position: absolute;
+    width:15px;
+    height:10px;
+    top:-5px;
+    bottom:auto;
+    margin-top:auto;
+    margin-bottom:auto;  
+    z-index:2;
+    left:37px;
+  }
+  
 }
 
 
@@ -214,15 +266,15 @@
   text-align: center;
   overflow:hidden;
   border-collapse:separate;
-  border: 1px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
-  background: var(--THEME_COLOR_MODULE_ONE_STRONG);
+  border: 1px solid var(--THEME_COLOR_MODULE_ONE);
+  background: var(--THEME_COLOR_MODULE_ONE);
   border-top-left-radius: 40px;
   
 }
 
 table th{
   color: white;
-  background-color: var(--THEME_COLOR_MODULE_ONE_STRONG);;
+  background-color: var(--THEME_COLOR_MODULE_ONE);;
   font-weight: normal;
   text-align: center;
   padding: 5px;
@@ -233,7 +285,7 @@ table td {
   /* color: #ffffff; */
   background-color: white;
   padding: 5px;
-  border: 1px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  border: 1px solid var(--THEME_COLOR_MODULE_ONE);
 }
 
 
