@@ -138,14 +138,16 @@ a.capitulo-link {
 	line-height: 48px;
 	font-size: 20px;
 	letter-spacing: 0.05em;
-	background: linear-gradient(#d7d7d7, #d7d7d7);
+	/* background: linear-gradient(#d7d7d7, #d7d7d7); */
+	background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
 	background-size: 170px 100%;
 	background-repeat: no-repeat;
 	overflow: inherit;
 }
 
 .btn-menu:hover {
-	background: linear-gradient(#ddd, #ddd);
+	/* background: linear-gradient(#ddd, #ddd); */
+	background: #FFCC66;
 	background-size: 170px 100%;
 	background-repeat: no-repeat;
 }
@@ -154,8 +156,8 @@ a.capitulo-link {
 	min-height: 90px;
 	height: 100%;
 	content: "";
-	width: 50px;
-	transform: skew(15deg);
+	/* width: 50px; */
+	/* transform: skew(15deg); */
 	margin-left: 10px;
 	z-index: -99;
 }

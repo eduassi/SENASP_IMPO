@@ -29,6 +29,13 @@ section {
   text-align: center;
 }
 
+.color-white{
+  color:white;
+}
+.color-black{
+  color:black;
+}
+
 .color-box p {
   padding-top: 28px;
 }
