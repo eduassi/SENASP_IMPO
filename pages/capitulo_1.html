@@ -27,30 +27,6 @@
   </div>
 
 
-  <div class="row">
-    <div class="col">
-      <h5>Exemplo de <i>grid</i> 12 com conteúdos distribuídos em quantidades de colunas iguais</h5>
-    </div>
-  </div>
-
-
-
-
-  <div class="row">
-    <div class="col">
-      <h5>Exemplo de <i>grid</i> 12 com conteúdos distribuídos em quantidades de colunas desiguais</h5>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
 
 
   <div class="row">
@@ -88,7 +64,7 @@
 
   <div class="row">
     <div class="col">
-      <img class="img-fluid" src="assets/img/dough-943245_1920.jpg" data-aos="fade-up" />
+      <img class="img-fluid" src="assets/img/dough-943245_1920.jpg"/>
     </div>
   </div>
   </div>
@@ -318,38 +294,147 @@
 </section>
 
 
-<div class="modal fade" id="modal-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Título do Modal</h4>
-        <button type="button" class="close" data-dismiss="modal">×</button>
-      </div>
 
-      <div class="modal-body">
-        <p>
-          Praesent sollicitudin convallis justo vitae mattis. Praesent molestie
-          ante vitae laoreet tincidunt. Nam malesuada augue vitae diam mollis
-          porta. Curabitur in vulputate turpis. Praesent dictum ante sed orci
-          feugiat convallis. In malesuada ultricies lectus nec pretium. Maecenas
-          tincidunt mauris nec diam lobortis sodales. Integer imperdiet gravida
-          efficitur.
-        </p>
-        <p>
-          Donec maximus ac sapien dignissim condimentum. Nullam non augue
-          sodales, sollicitudin nulla et, venenatis tellus. Donec luctus et
-          augue sit amet dignissim.
-        </p>
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-10 mx-auto">
+            <h3 class="mt-4">
+              1.4.3 <i>Grid</i> com 4 colunas com cards
+            </h3>
+          </div>
+        </div>
+    
+        <div class="row row-eq-height">
+  
+          <div class="col-md-4 mb-2">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/pasta-3219646_1920.jpg" alt="Card image" style="width:100%" />
+              <div class="card-body">
+                <h4 class="card-title">Tagliateli Verdi</h4>
+                <p class="card-text">
+                  Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam nec consequat. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/pasta-2776645_1920.jpg" alt="Card image" style="width:100%" />
+              <div class="card-body">
+                <h4 class="card-title">Penne</h4>
+                <p class="card-text">
+                  Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam nec consequat. 
+                </p>
+                <div style="text-align: center;">
+    
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    Open modal
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+    
+                <!-- Modal Header -->
+                <div class="modal-header" style="height: 50px">
+                  <h4 class="modal-title">Penne<section class="section">
+    
+                    </section>
+                  </h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <p>Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam nec consequat. </p>
+                </div>
+    
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+    
+    
+    
+    
+    
+    
+          <div class="col-md-4 mb-2">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/food-1942403_1920.jpg" alt="Card image" style="width:100%" />
+              <div class="card-body">
+                <h4 class="card-title">Rigatoni</h4>
+                <p class="card-text">
+                  Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam nec consequat. 
+                </p>
+                <div style="text-align: center">
+                  <a id="popOver-1" target="_self" data-toggle="popover" title="Popover Header"
+                    data-content="Some short sample text for the Matteo Popover"
+                    class="btn btn-primary stretched-link mx-auto">Veja em Popover</a>
+                  <script>
+                    $(document).ready(function () {
+                      $("#popOver-1").click(function () {
+                        $('[data-toggle="popover"]').popover();
+                      });
+                    });	
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">
-          Fechar
-        </button>
+    </section>
+    <div class="modal fade" id="modal-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Título do Modal</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+    
+          <div class="modal-body">
+            <p>
+              Praesent sollicitudin convallis justo vitae mattis. Praesent molestie
+              ante vitae laoreet tincidunt. Nam malesuada augue vitae diam mollis
+              porta. Curabitur in vulputate turpis. Praesent dictum ante sed orci
+              feugiat convallis. In malesuada ultricies lectus nec pretium. Maecenas
+              tincidunt mauris nec diam lobortis sodales. Integer imperdiet gravida
+              efficitur.
+            </p>
+            <p>
+              Donec maximus ac sapien dignissim condimentum. Nullam non augue
+              sodales, sollicitudin nulla et, venenatis tellus. Donec luctus et
+              augue sit amet dignissim.
+            </p>
+          </div>
+    
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Fechar
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+
+
+
+
+
+
 
 <section>
   <div class="container">
@@ -448,154 +533,83 @@
 
 
 
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1 class="mt-5">3. Destaques</h1>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
 
 <section class="container">
   <div class="row">
     <div class="col-12">
-      <h2>3.1 - Saiba Mais</h2>
-      <div class="col-md-8 col-sm-12 mx-auto">
-
-
-        <!-- SAIBA MAIS -->
-        <div class="box-dtq">
-
-          <div>
-
-            <img src="assets/images/module_common/iconografia-saiba-mais.png">
-
-            <h5>Saiba Mais</h5>
-
-            <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh
-              ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer
-              imperdiet lectus quis justo.<em>
-                <a href="https://portal.prf.gov.br/">
-                  Nam quis nulla. Integer malesuada. In in enim
-                </a> </em>Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit.
-              Integer in</p>
-
-          </div>
-
-        </div><!-- ./ SAIBA MAIS -->
-
-      </div>
+      <h1>3 Caixas de Destaque</h1>
     </div>
   </div>
-</section>
 
-
-
-<section class="container">
   <div class="row">
     <div class="col-12">
-      <h2>3.2 - Citação</h2>
-      <div class="col-md-8 mx-auto">
-        <blockquote>
-          Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu,
-        </blockquote>
-        <figcaption class="quote-by">Lorem ipsum, XXXX, p.x</figcaption>
-      </div>
+      <h2>3.1 Na Prática</h2>
     </div>
   </div>
-</section>
 
-<section class="container">
   <div class="row">
-    <div class="col-12">
-      <h2>3.3 - Acesse</h2>
-      <div class="col-md-8 col-sm-12 mx-auto">
-
-
-        <!-- acesse -->
-        <div class="box-dtq">
-
-          <div>
-
-            <img src="assets/images/module_common/iconografia-acesse.png">
-
-            <h5>Acesse</h5>
-
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi
-              scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis
-              lacinia<em>
-                <a href="https://portal.prf.gov.br/">
-                  Morbi leo mi, nonummy eget, tristique non, rhoncus non
-                </a> </em>,Aenean placerat. In vulputate urna</p>
-
-          </div>
-
-        </div><!-- ./ acesse -->
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container">
-  <div class="row">
-    <div class="col-12">
-      <h2>3.4 - Destaque</h2>
-
-      <div class="col-md-10 col-sm-12 mx-auto">
-
-        <!-- acesse -->
-        <div class="box-dtq">
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi
-              scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis
-              lacinia sed orci feugiat convallis. In malesuada ultricies lectus nec
-              pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
-              Integer imperdiet gravida efficitur.</p>          
-          </div>
-
-        </div><!-- ./ acesse -->
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<section class="container">
-  <div class="row">
-    <div class="col-12">
-      <h2>3.5- Destaque</h2>
-
-      <div class="col-md-8 col-sm-12 mx-auto">
-       
-        <div class="caixa-destaque"> 
+      <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">       
+        <div class="caixa-destaque na-pratica"> 
           <div class="caixa-destaque-icone"><img src="assets/images/identity/resources/na-pratica.png"></div> 
           <div class="caixa-destaque-title">Na Prática</div> 
-          <img class="patch" src="assets/images/identity/resources/patch-left.png">
+          <img class="patch" src="assets/images/identity/resources/patch.png">
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi
             scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis
             lacinia sed orci feugiat convallis. In malesuada ultricies lectus nec
             pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
             Integer imperdiet gravida efficitur.</p> 
-        </div>
-        
-
-
-
-      </div>
-
+      </div>        
     </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h2>3.2 Palavra do Especialista</h2>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">       
+        <div class="caixa-destaque especialista"> 
+          <div class="caixa-destaque-icone"><img src="assets/images/identity/resources/especialista.png"></div> 
+          <div class="caixa-destaque-title">Palavra do Especialista</div> 
+          <img class="patch" src="assets/images/identity/resources/patch.png">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi
+            scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis
+            lacinia sed orci feugiat convallis. In malesuada ultricies lectus nec
+            pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
+            Integer imperdiet gravida efficitur.</p> 
+      </div>        
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-12">
+      <h2>3.2 Na Prática</h2>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">       
+        <div class="caixa-destaque saiba-mais"> 
+          <div class="caixa-destaque-icone"><img src="assets/images/identity/resources/saiba-mais.png"></div> 
+          <div class="caixa-destaque-title">Saiba mais</div> 
+          <img class="patch" src="assets/images/identity/resources/patch.png">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi
+            scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis
+            lacinia sed orci feugiat convallis. In malesuada ultricies lectus nec
+            pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
+            Integer imperdiet gravida efficitur.</p> 
+      </div>        
+    </div>
+  </div>
+
+
+
+
+
+
   </div>
 </section>
 

@@ -167,7 +167,7 @@
   min-height: 150px;
   padding: 15px;
   padding-top:25px;
-  border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE_LIGHT); 
   border-bottom-left-radius: 30px;
 }
 
@@ -181,7 +181,7 @@
   height: 100px;
   border-radius: 100%;  
   left:-100px;  
-  border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE_LIGHT); 
   z-index:1;
 }
 .caixa-destaque-icone img{
@@ -190,20 +190,43 @@
 }
 .caixa-destaque-title{
   position: absolute;
-  width: 120px;
+  width: 110px;
   height: 30px;
   top:-15px;
   right: 20px;
   background: white;
   font-family: 'Roboto Slab', serif;
-  color: var(--THEME_COLOR_MODULE_ONE);
-  border: 3px solid var(--THEME_COLOR_MODULE_ONE);
+  color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
+  /* border: 3px solid var(--THEME_COLOR_MODULE_ONE); */
   text-align: center;
   line-height: 22px;
   font-weight: 400;
   font-size: 18px; 
   z-index:3;
 }
+
+.saiba-mais{
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+.saiba-mais .caixa-destaque-icone{
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE_STRONG); 
+}
+.saiba-mais .caixa-destaque-title{
+  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+
+.especialista{
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE);
+}
+.especialista .caixa-destaque-icone{
+  border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+}
+.especialista .caixa-destaque-title{
+  color: var(--THEME_COLOR_MODULE_ONE);
+  width: 210px;
+}
+
+
 .patch{
   position: absolute;
   width:10px;
@@ -233,7 +256,7 @@
     width: 60px;
     height: 60px;
     border-radius: 100%;    
-    border: 3px solid var(--THEME_COLOR_MODULE_ONE); 
+    border: 3px solid var(--THEME_COLOR_MODULE_ONE_LIGHT); 
     z-index:1;
   }
 

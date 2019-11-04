@@ -183,6 +183,7 @@ figcaption {
     var(--THEME_COLOR_MODULE_ONE_LIGHT),
     var(--THEME_COLOR_MODULE_ONE_LIGHT)
   );
+  text-transform: uppercase;
 }
 
 .modulo_2 h1 {
