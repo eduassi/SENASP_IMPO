@@ -240,6 +240,40 @@
 }
 
 
+.citacao{
+  width:100%;
+  height: auto;
+  background-image: url(../../assets/images/identity/resources/citacao-l.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border: none;
+}
+.citacao div{
+  background-image: url(../../assets/images/identity/resources/citacao-r.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+.citacao p{
+  color:  var(--THEME_COLOR_MODULE_ONE_STRONG) !important;
+}
+.box-destaque{
+  width:100%;
+  height: auto;
+  border-left: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  border-right: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  background: #e3d6d6;
+  padding: 20px 28px;
+}
+.box-destaque p{
+  color:  var(--THEME_COLOR_MODULE_ONE_STRONG);
+}
+
+.video-player{
+  padding: 40px; 
+  background:#fff7ea;
+}
+
 @media only screen and (max-width: 767px) {
 
   .caixa-destaque{
