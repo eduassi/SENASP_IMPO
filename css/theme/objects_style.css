@@ -685,8 +685,8 @@ table td {
 /* JESUS SLIDERS END */
 
 /* LSS QUIZ START */
-ul,
-article {
+.lss_quiz ul,
+.lss_quiz article {
   margin: 0;
   padding: 0;
   border: 0;
@@ -694,11 +694,11 @@ article {
   font: inherit;
   vertical-align: baseline;
 }
-ol,
-ul {
+.lss_quiz ol,
+.lss_quiz ul {
   list-style: none;
 }
-.button {
+.lss_quiz .button {
   background-color: var(--THEME_COLOR_PRIMARY);
   color: black;
   display: inline-block;
@@ -713,22 +713,22 @@ ul {
   border-radius: 0px;
   text-transform: capitalize;
 }
-.button:hover {
+.lss_quiz .button:hover {
   background: var(--THEME_COLOR_PRIMARY);
   color: white;
   text-shadow: none;
   text-decoration: none;
   border-color: var(--THEME_COLOR_PRIMARY);
 }
-.button:focus {
+.lss_quiz .button:focus {
   text-decoration: none;
 }
 
-.privew {
+.lss_quiz .privew {
   margin-bottom: 20px;
 }
 
-.questionsBox {
+.lss_quiz .questionsBox {
   display: block;
   border: solid 1px var(--THEME_COLOR_AUX);
   padding: 10px 20px 0px;
@@ -737,7 +737,7 @@ ul {
   border-radius: 3px;
   margin: 0 10px;
 }
-.questions {
+.lss_quiz .questions {
   background: var(--THEME_COLOR_PRIMARY);
   color: black;
   font-size: 30px;
@@ -746,8 +746,8 @@ ul {
   margin: 0 -30px 10px;
   position: relative;
 }
-.questions:before,
-.questions:after {
+.lss_quiz .questions:before,
+.lss_quiz .questions:after {
   display: block;
   position: absolute;
   top: 100%;
@@ -758,21 +758,21 @@ ul {
   text-align: left;
   font-size: 0;
 }
-.questions:after {
+.lss_quiz .questions:after {
   left: auto;
   right: 0;
   background-position: -10px 0;
 }
-.answerList {
+.lss_quiz .answerList {
   margin-bottom: 15px;
 }
-.answerList li {
+.lss_quiz .answerList li {
   padding: 3px 0;
 }
-.answerList li:first-child {
+.lss_quiz .answerList li:first-child {
   border-top-width: 0;
 }
-.answerList label {
+.lss_quiz .answerList label {
   display: block;
   padding: 6px;
   border-radius: 6px;
@@ -782,22 +782,22 @@ ul {
   cursor: pointer;
   font-family: 'Roboto Slab', serif;
 }
-.answerList li:hover label {
+.lss_quiz .answerList li:hover label {
   border-color: var(--THEME_COLOR_AUX_STRONG);
   background: var(--THEME_COLOR_AUX);
 }
-.answerList li.selected label {
+.lss_quiz .answerList li.selected label {
   border-color: var(--THEME_COLOR_AUX_STRONG);
   background: var(--THEME_COLOR_QUINTIARY);
 }
 
-.questionsRow {
+.lss_quiz .questionsRow {
   background: var(--THEME_COLOR_AUX);
   margin: 0 -20px;
   padding: 10px 20px;
   border-radius: 0 0 3px 3px;
 }
-.questionsRow span {
+.lss_quiz .questionsRow span {
   float: right;
   display: inline-block;
   line-height: 30px;
@@ -817,7 +817,7 @@ ul {
   display: none;
 }
 
-.feedback-box {
+.lss_quiz .feedback-box {
   position: relative;
   border: 5px solid black;
   border-radius: 15px;
@@ -825,26 +825,26 @@ ul {
   padding-top: 60px;
 }
 
-.feedback-image {
+.lss_quiz .feedback-image {
   position: absolute;
   bottom: -50px;
   right: -50px;
 }
 
-.animation-screen {
+.lss_quiz .animation-screen {
   position: relative;
   width: 40vw;
   margin: auto;
   margin-bottom: 1rem;
 }
 
-.quiz_background_animated {
+.lss_quiz .quiz_background_animated {
   position: relative;
   width: 100%;
   border-radius: 15px;
 }
 
-.full_height_character_holder {
+.lss_quiz .full_height_character_holder {
   position: absolute;
   height: 100%;
   width: 1px;
@@ -859,14 +859,14 @@ ul {
   width: 100%;
 }
 
-#julia_waiting {
+.lss_quiz #julia_waiting {
   position: absolute;
   z-index: 1;
   width: 19vw;
   left: -8.8vw;
   bottom: 0;
 }
-#julia_responde {
+.lss_quiz #julia_responde {
   position: absolute;
   z-index: 2;
   width: 19vw;
@@ -932,7 +932,7 @@ table .table-destaque td {
 
 
 @media only screen and (max-width: 719px) {
-  .animation-screen {
+  .lss_quiz .animation-screen {
     position: relative;
     width: 100%;
     margin: auto;
@@ -942,24 +942,24 @@ table .table-destaque td {
     border-radius: 15px;
   }
 
-  .full_height_character_holder {
+  .lss_quiz .full_height_character_holder {
     bottom: 0;
   }
 
-  #julia_waiting {
+  .lss_quiz #julia_waiting {
     width: 25vw;
     left: -11.5vw;
   }
-  #julia_responde {
+  .lss_quiz #julia_responde {
     width: 25vw;
     left: -11.5vw;
   }
 
-  .quiz_background_animated {
+  .lss_quiz .quiz_background_animated {
     border-radius: 15px;
   }
 
-  .outerBox {
+  .lss_quiz .outerBox {
     padding: 16px !important;
   }
 
@@ -967,7 +967,7 @@ table .table-destaque td {
     padding: 16px !important;
   }
 
-  .questions {
+  .lss_quiz .questions {
     margin-bottom: 16px;
     font-size: 15px;
     padding-right: 16px;
@@ -979,11 +979,11 @@ table .table-destaque td {
   }
 }
 @media only screen and (max-width: 575px) {
-  #julia_waiting {
+  .lss_quiz #julia_waiting {
     width: 33vw;
     left: -15.1vw;
   }
-  #julia_responde {
+  .lss_quiz #julia_responde {
     width: 33vw;
     left: -15.1vw;
   }
