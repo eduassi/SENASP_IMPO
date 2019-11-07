@@ -1,440 +1,49 @@
- 
-
-    <section class='mb-5 py-2 '>
-        
-      <div class="container">
-        <h1>Jogos</h1>
-      </div>
-    
-    </section>
-
-<section class="container matchup">
-	<h2>5.1 - Matchup (Jogo da Memória)</h2>
-	<div class="container matchup_container">
-		<script id="cards" type="application/json">
-			{
-			"settings":{
-			"rows": 4,
-			"columns": 4,
-			"offset": 100
-			},
-			"mobile_settings":{
-			"rows": 4,
-			"columns": 4,
-			"offset": 70
-			},
-			"cards":[
-			[{"card": "assets/images/module_1/stock/imagem_04.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_05.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_06.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_07.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_08.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_09.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_10.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_11.jpg",  "type":"img"}]
-			]
-			}
-		</script>
-	</div>
-</section>
-
-<section class="container puzzle">
-	<h2>5.2 - Puzzle (Quebra-Cabeça)</h2>
-	<div class="container puzzle_container">
-		<script id="puzzle_json" type="application/json">
-			{
-			"settings":{
-			"rows": 4,
-			"columns": 4,
-			"factor_view": 0.5,
-			"offset": 100
-			},
-			"mobile_settings":{
-			"rows": 2,
-			"columns": 2,
-			"factor_view": 0.5,
-			"offset": 70
-			},
-			"img": "assets/images/module_1/stock/imagem_04.jpg"
-			}
-		</script>
-	</div>
-</section>
-
-<section class="container ">
-	<div class="row">
-		<div class="col-12">
-			<h2>5.3 - LSS Quiz</h2>
-			<span class="lss_quiz">
-				<div id="game_box" class="row">
-					<div class="outerBox">
-						<div class="lss-progress lss-progress-striped lss-active">
-							<div
-								class="lss-progress-bar"
-								data-bind="style: 100%, text:labelPercent"
-								style="width: 0;"
-								id="progress_lettering"
-							></div>
-						</div>
-
-						<div class="animation-screen">
-							<div class="full_height_character_holder">
-								<div
-									class="aps-animator"
-									id="julia_responde"
-									animation-configuration="palinmation looping"
-									looping-counter="1"
-								>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia1.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia2.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia3.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="400"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia4.png"
-									/>
-								</div>
-
-								<div
-									class="aps-animator"
-									id="julia_waiting"
-									animation-configuration="looping autoplay"
-									looping-counter="0"
-								>
-									<img
-										class="frame"
-										frame-duration="1600"
-										src="assets\images\module_1\animacoes\julia_piscando\pisca1.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_piscando\pisca2.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_piscando\pisca3.png"
-									/>
-								</div>
-							</div>
-
-							<img
-								class="quiz_background_animated"
-								src="assets/images/module_1/content/quiz_bg.gif"
-							/>
-						</div>
-
-						<div class="questionsBox">
-							<div class="questions" id="lettering"></div>
-							<ul class="answerList" id="choices_group"></ul>
-						</div>
-					</div>
-				</div>
-
-				<div id="demo_final" class="col-md-10 mx-auto">
-					<div class="feedback-box" id="final_bad">
-						<img
-							class="feedback-image img-fluid d-none d-sm-block img-desktop"
-							src="assets/images/module_1/content/feedback_bad.png"
-						/>
-						<div class="d-block d-sm-none">
-							<div
-								class="aps-animator"
-								style="position: absolute;"
-								id="lights_bad"
-								animation-configuration="looping autoplay"
-								looping-counter="0"
-							>
-								<img
-									class="frame"
-									frame-duration="300"
-									src="assets\images\module_1\animacoes\lights\light_off.png"
-								/>
-								<img
-									class="frame"
-									frame-duration="200"
-									src="assets\images\module_1\animacoes\lights\light_on.png"
-								/>
-							</div>
-							<img
-								class="feedback-image img-fluid mb-2"
-								src="assets\images\module_1\content\feedback_bad_responsive.png"
-							/>
-						</div>
-					</div>
-
-					<div class="feedback-box" id="final_medium">
-						<img
-							class="feedback-image img-fluid d-none d-sm-block"
-							src="assets/images/module_1/content/feedback_medium.png"
-						/>
-						<div class="d-block d-sm-none">
-							<div
-								class="aps-animator"
-								style="position: absolute;"
-								id="lights_medium"
-								animation-configuration="looping autoplay"
-								looping-counter="0"
-							>
-								<img
-									class="frame"
-									frame-duration="300"
-									src="assets\images\module_1\animacoes\lights\light_off.png"
-								/>
-								<img
-									class="frame"
-									frame-duration="200"
-									src="assets\images\module_1\animacoes\lights\light_on.png"
-								/>
-							</div>
-							<img
-								class="feedback-image img-fluid mb-2"
-								src="assets\images\module_1\content\feedback_medium_responsive.png"
-							/>
-						</div>
-					</div>
-
-					<div class="feedback-box" id="final_good">
-						<video
-							class="image-responsive d-none d-sm-block"
-							loop
-							autoplay
-							muted
-						>
-							<source
-								src="assets/images/module_1/content/feedback_good.mp4"
-								type="video/mp4"
-							/>
-						</video>
-						<div class="d-block d-sm-none">
-							<div
-								class="aps-animator"
-								style="position: absolute;"
-								id="lights_good"
-								animation-configuration="looping autoplay"
-								looping-counter="0"
-							>
-								<img
-									class="frame"
-									frame-duration="300"
-									src="assets\images\module_1\animacoes\lights\light_off.png"
-								/>
-								<img
-									class="frame"
-									frame-duration="200"
-									src="assets\images\module_1\animacoes\lights\light_on.png"
-								/>
-							</div>
-							<img
-								class="feedback-image img-fluid mb-2"
-								src="assets/images/module_1/content/feedback_good_responsive.png"
-							/>
-						</div>
-					</div>
-				</div>
-
-				<script id="database" type="application/json">
-					{
-					"settings": {
-					"questions": 10,
-					"answers": 3,
-					"randomize_questions": true,
-					"randomize_answers": true
-					},
-					"gamemode": {
-					"feedback_mode": true,
-					"feedback_rule": "min-max",
-					"feedbacks": [{
-					"bounds": [7, 10],
-					"target": "final_bad"
-					},
-					{
-					"bounds": [3, 6],
-					"target": "final_medium"
-					},
-					{
-					"bounds": [0, 2],
-					"target": "final_good"
-					}
-					]
-					},
-					"questions": [{
-					"Title": "Quando alguém vai lhe deixar em algum lugar, com automóvel, e não existe vaga liberada para o embarque e desembarque:",
-					"Answers": [{
-					"Title": "Não se incomoda em descer em local proibido, como fila dupla, contramão, na esquina ou em local sinalizado, desde que atenda à sua necessidade",
-					"Score": 1
-					},
-					{
-					"Title": "Demonstra à pessoa a sua insatisfação em ter de descer em local proibido, mas se convence de que não há outro jeito",
-					"Score": 0.5
-					},
-					{
-					"Title": "Convence o motorista a procurar um lugar permitido à parada de veículo, ainda que você tenha que andar um pouco mais para chegar ao seu destino",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você está com um grupo de amigos em número superior à capacidade de passageiros do automóvel:",
-					"Answers": [{
-					"Title": "Entra no carro assim mesmo, se arrumando como for possível, ainda que fique apertado e/ou um no colo do outro",
-					"Score": 1
-					},
-					{
-					"Title": "Tenta procurar uma solução mais adequada, sugerindo que dividam os passageiros nos veículos de outros amigos, mas, na impossibilidade, resigna-se com a situação",
-					"Score": 0.5
-					},
-					{
-					"Title": "Não concorda com a situação e chama um táxi para acomodar você e outros que se convenceram de seu argumento",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Se alguém lhe oferece uma carona de motocicleta, mas só tem um capacete de segurança:",
-					"Answers": [{
-					"Title": "Se for a única forma de você se locomover até onde precisa, vai assim mesmo, sem capacete",
-					"Score": 1
-					},
-					{
-					"Title": "Aceita a carona, mas apenas porque o condutor decidiu ficar desprotegido e lhe ofereceu o único capacete disponível",
-					"Score": 0.5
-					},
-					{
-					"Title": "Mesmo que seja a única forma de locomoção, recusa a carona",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando um amigo lhe pede carona em seu automóvel, para ele e o filho, menor de sete anos, e você não possui o dispositivo de segurança adequado à idade da criança:",
-					"Answers": [{
-					"Title": "Leva assim mesmo, por conta da amizade, sem comentar sobre o assunto",
-					"Score": 1
-					},
-					{
-					"Title": "Explica para o amigo que não pode levar a criança, por não possuir o dispositivo de segurança, mas realiza o transporte, frente à insistência dele",
-					"Score": 0.5
-					},
-					{
-					"Title": "Recusa terminantemente a realizar o transporte inseguro e explica que a sua decisão procura salvaguardar a vida do filho dele",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você está de carona e o motorista ingeriu bebida alcoólica (independente da quantidade):",
-					"Answers": [{
-					"Title": "Vai embora com ele assim mesmo, pois confia na direção dele",
-					"Score": 1
-					},
-					{
-					"Title": "Explica ao motorista sua preocupação e chama um táxi para você ir embora, permitindo que ele dirija sozinho",
-					"Score": 0.5
-					},
-					{
-					"Title": "Procura convencê-lo a passar a direção para alguém que não tenha bebido ou, então, a deixar o veículo em um estacionamento",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você liga para o celular de alguém e a pessoa diz que está dirigindo:",
-					"Answers": [{
-					"Title": "Continua falando normalmente",
-					"Score": 1
-					},
-					{
-					"Title": "Diz que não quer atrapalhar e, portanto, vai falar rapidinho",
-					"Score": 0.5
-					},
-					{
-					"Title": "Diz que liga depois ou, se for muito importante, pede para a pessoa estacionar para conversar com você",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você está andando, na calçada, com outra pessoa e ela decide atravessar a rua fora da faixa de pedestres:",
-					"Answers": [{
-					"Title": "Atravessa junto com ela, fora da faixa",
-					"Score": 1
-					},
-					{
-					"Title": "Deixa-a atravessar e continua, sozinho, até a faixa",
-					"Score": 0.5
-					},
-					{
-					"Title": "Explica o perigo de seu comportamento e procura convencê-la a atravessar na faixa",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando está em um automóvel (independente se na condição de motorista ou passageiro) e alguém não coloca o cinto de segurança (inclusive no banco traseiro):",
-					"Answers": [{
-					"Title": "Fica quieto, pois já está fazendo a sua parte, utilizando o seu cinto de segurança",
-					"Score": 1
-					},
-					{
-					"Title": "Informa à pessoa a necessidade de utilização do cinto e deixa a critério dela a escolha",
-					"Score": 0.5
-					},
-					{
-					"Title": "Sendo você o motorista, não segue a marcha com o veículo, se a pessoa não colocar o cinto de segurança e, sendo você um dos passageiros, exige a utilização pela outra pessoa, dizendo que vai descer do automóvel, caso não atenda ao seu pedido",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Se você é passageiro e o motorista é imprudente, atendendo ao telefone celular, assistindo a um aparelho de DVD ou prestes a cometer qualquer infração de trânsito:",
-					"Answers": [{
-					"Title": "Sente-se incomodado com o comportamento dele, mas prefere não falar nada (embora o risco lhe seja igualmente potencial)",
-					"Score": 1
-					},
-					{
-					"Title": "Deixa que ele continue no comportamento infracional e, na primeira oportunidade que tiver, comenta sobre o fato",
-					"Score": 0.5
-					},
-					{
-					"Title": "Procura impedir, prontamente, que o motorista adote o comportamento inseguro, alertando que ele está colocando a vida de todos os ocupantes do veículo em risco",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Se você está em uma excursão e o ônibus utilizado para levar o grupo a um passeio estiver em fila dupla:",
-					"Answers": [{
-					"Title": "Entra assim mesmo no ônibus; afinal de contas, quem está cometendo a infração de trânsito é o motorista e não você",
-					"Score": 1
-					},
-					{
-					"Title": "Comenta com os outros sobre o cometimento da infração e/ou chama a atenção do motorista, mas entra no ônibus",
-					"Score": 0.5
-					},
-					{
-					"Title": "Conversa com o motorista, para tentar persuadi-lo a parar em local correto, ainda que mais distante e, na impossibilidade de convencimento, decide não entrar no ônibus e vai de táxi ao local de encontro do grupo",
-					"Score": 0
-					}
-					]
-					}
-					]
-					}
-				</script>
-			</span>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 mx-auto">
+				<h1>Apresentação</h1>
+				<p>Olá, cursista!</p>
+				<p>
+					Bem-vindo ao curso
+					<strong>Instrumento de Menor Potencial Ofensivo</strong>.
+				</p>
+				<p>
+					Neste primeiro módulo, você irá entender o conceito e as técnicas de
+					uso dos instrumentos de menor potencial ofensivo, a fim de compreender
+					como preservar vidas e minimizar os danos à integridade física das
+					pessoas durante a sua ação. Ao longo do curso, também vamos apresentar
+					alguns pontos da legislação e da Portaria Interministerial n.º
+					4.226/10, referentes ao tema, que são importantes para a sua formação
+					como profissional de segurança pública, e as leis que poderão ser
+					aplicadas quando houver uso indevido desses instrumentos.
+				</p>
+				<p>
+					Desejamos que, ao final do estudo, você possa ter compreendido a
+					importância dessas táticas como meios alternativos ao uso da força,
+					buscando a “não letalidade” por meio do conhecimento teórico e do
+					treinamento prático.
+				</p>
+				<p></p>
+				<h2>Objetivos do módulo</h2>
+				<p>
+					Conceituar os instrumentos de menor potencial ofensivo, os tipos mais
+					utilizados e definir as técnicas de menor potencial ofensivo. Além
+					disso, espera-se que você conheça os principais pontos da legislação
+					sobre o uso dos instrumentos para refletir a questão da “não
+					letalidade”.
+				</p>
+				<p></p>
+				<h2>Estrutura do módulo</h2>
+				<p>
+					Aula 1 – Instrumentos de menor potencial ofensivo: conceitos
+					fundamentais.
+				</p>
+				<p>
+					Aula 2 – Aspectos legais sobre o uso dos instrumentos de menor
+					potencial ofensivo.
+				</p>
+			</div>
 		</div>
 	</div>
 </section>

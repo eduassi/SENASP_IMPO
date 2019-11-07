@@ -2,12 +2,12 @@
   "information": {
     "modulo-numero": "MÓDULO 1",
     "modulo-resumido": "M1",
-    "modulo-nome": "Cardápio Base"
+    "modulo-nome": "CONCEITOS E ASPECTOS LEGAIS: CONTEXTO GERAL "
   },
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 4,
+    "max-level": 3,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
@@ -17,21 +17,17 @@
       "url": "pages/capitulo_0.html"
     },
     {
-      "placeholder": "Gride",
+      "placeholder": "Aula 1",
       "url": "pages/capitulo_1.html"
     },
     {
-      "placeholder": "Componentes",
+      "placeholder": "Aula 2",
       "url": "pages/capitulo_2.html"
     }
     ,
     {
-      "placeholder": "Jogos",
+      "placeholder": "Referências",
       "url": "pages/capitulo_3.html"
-    },
-    {
-      "placeholder": "Animações",
-      "url": "pages/capitulo_4.html"
     }
   ]
 }
