@@ -90,48 +90,46 @@ a.capitulo-link {
 	display: flex;
 	margin-top: auto;
 	margin-bottom: auto;
-}
-
-.ball-item-holder .ball-item {
-	display: flex;
-	width: 30px;
 	height: 30px;
-	align-items: center;
-	margin-left: 5px;
-	margin-right: 5px;
-	cursor: pointer;
 }
-
-
 
 .ball-item-holder a {
 	width: 100%;
 	height: 100%;
 	padding: 0;
 	text-align: center;
-	padding-top: 3px;
+	padding-top: 0px;
 	font-size: 16px;
 }
 
 
 /* CONFIG PARA BOLINHAS */
 .ball-item-holder .ball-item {
-	background-color: rgb(173, 173, 173);
-	border-radius: 100%;
+	display: flex;
+	width: 24px;
+	height: 24px;
+	align-items: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	background-color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+	border-radius: 50%;
 }
 
 /* CONFIG PARA BOLINHAS ATIVAS */
 .ball-item-holder .ball-item.active {
-	background: #575757;
+	width: 30px;
+	height: 30px;
+	background-color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
 	border-radius: 50%;
 	color: white;
 }
 
 /* CONFIG PARA BOLINHAS EM HOVER */
 .ball-item-holder .ball-item:not(.active) a.capitulo-link:hover {
-	color: #fff;
-	background-color: #888;
-	border-radius: 100%;
+	background-color:  var(--THEME_COLOR_MODULE_ONE);
+	border-radius: 50%;
+	color: white;
 }
 
 
