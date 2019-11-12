@@ -44,3 +44,7 @@ section {
   list-style: circle !important;
   margin-left: 20px;
 }
+
+.align-text-center{
+  text-align: center;
+}
