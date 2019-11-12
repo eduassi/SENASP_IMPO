@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
-    "modulo-nome": "CONCEITOS E ASPECTOS LEGAIS: CONTEXTO GERAL "
+    "modulo-numero": "MÓDULO 2",
+    "modulo-resumido": "M2",
+    "modulo-nome": "ESPARGIDORES DE SOLUÇÃO LACRIMOGÊNEA"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -23,11 +23,19 @@
     {
       "placeholder": "Aula 2",
       "url": "pages/capitulo_2.html"
+    },
+    {
+      "placeholder": "Aula 3",
+      "url": "pages/capitulo_3.html"
+    },
+    {
+      "placeholder": "Aula 4",
+      "url": "pages/capitulo_4.html"
     }
     ,
     {
       "placeholder": "Referências",
-      "url": "pages/capitulo_3.html"
+      "url": "pages/capitulo_5.html"
     }
   ]
 }
