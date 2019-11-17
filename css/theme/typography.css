@@ -334,3 +334,12 @@ figcaption {
   font-size: 15pt;
   font-weight: 400;
 }
+
+
+.modulo_1 .card h5,
+.modulo_2 .card h5,
+.modulo_3 .card h5,
+.modulo_4 .card h5 {
+  color:white;
+}
+

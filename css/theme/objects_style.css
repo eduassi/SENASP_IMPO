@@ -1490,6 +1490,16 @@ a.nav-link{
   width: 80vw;
 }
 
+.modal-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom:0;
+}
+
+.modal-header h4{
+margin-bottom: 0;
+}
+
 .carousel {
   padding: 50px;
   border-radius: 15px;
