@@ -1408,6 +1408,24 @@ a.nav-link{
 
 /* TABS END */
 
+
+
+
+
+/* DESLIZE */
+.deslize{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 0;  
+}
+
+/* ./DESLIZE */
+
+
+
+
+
 /* VENTANITAS START */
 
 .ventana {
@@ -1489,6 +1507,18 @@ a.nav-link{
 .modal-lg {
   width: 80vw;
 }
+
+
+.modal-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom:0;
+}
+
+.modal-header h4{
+  margin-bottom: 0;
+}
+
 
 .carousel {
   padding: 50px;
