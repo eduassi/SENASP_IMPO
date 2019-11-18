@@ -1419,7 +1419,7 @@ a.nav-link{
   border-radius: 10px;
   padding: 5px;
   border: 2px solid var(--THEME_COLOR_MODULE_ONE_STRONG);  
-  background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
+  background: var(--THEME_COLOR_MODULE_ONE_BG);
 }
 
 /* ./DESLIZE */
