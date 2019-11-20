@@ -265,8 +265,10 @@
   background: #e3d6d6;
   padding: 20px 28px;
 }
+
 .box-destaque p{
   color:  var(--THEME_COLOR_MODULE_ONE_STRONG);
+  margin-bottom: 0;
 }
 
 .video-player{

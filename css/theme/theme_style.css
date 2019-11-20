@@ -9,16 +9,16 @@ body {
 	overflow-y: scroll;
 	overflow-x: none;
 	margin-top: 150px;
-	font-size: 17px;
+	font-size: 19px;
 }
 a {
 	overflow-wrap: break-word;
 }
 
 a.box-dest {
-	background: #feb477 !important;
-	color: #0000ff !important;
-	font-weight: normal !important;
+	background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT) !important;
+	color: #000 !important;
+	font-weight: bold !important;
 	border: 1px dashed #ff9741 !important;
 	cursor: pointer;
 }

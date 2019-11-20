@@ -180,12 +180,10 @@ figcaption {
 
 /*  H1  */
 .modulo_1 h1 {
-  /* background: linear-gradient(
-    var(--THEME_COLOR_MODULE_ONE_EXTRA_LIGHT),
-    var(--THEME_COLOR_MODULE_ONE)
-  ); */
-  background: var(--THEME_COLOR_MODULE_ONE_EXTRA_LIGHT);
-    
+  background: linear-gradient(
+    var(--THEME_COLOR_MODULE_ONE_LIGHT),
+    var(--THEME_COLOR_MODULE_ONE_LIGHT)
+  );
   text-transform: uppercase;
 }
 
@@ -217,11 +215,11 @@ figcaption {
   width: 100%;
   text-transform: normal;
   font-weight: 600;
-  background-size: 100% 10px;
+  background-size: 100% 5px;
   background-repeat: no-repeat;
   background-position: bottom;
   margin-top: 1.75rem;
-  font-size: 20pt;
+  font-size: 23pt;
 }
 
 /*  H2  */
@@ -259,7 +257,7 @@ figcaption {
 .modulo_4 h2 {
   text-transform: uppercase;
   background-position: 0 0;
-  background-size: 80px 3px;
+  background-size: 80px 5px;
   background-repeat: no-repeat;
   padding-top: 5px;
   margin-top: 2rem;
@@ -337,10 +335,11 @@ figcaption {
   font-weight: 400;
 }
 
+
 .modulo_1 .card h5,
 .modulo_2 .card h5,
 .modulo_3 .card h5,
 .modulo_4 .card h5 {
-  color:white !important;
+  color:white;
 }
 
