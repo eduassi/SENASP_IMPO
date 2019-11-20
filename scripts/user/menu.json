@@ -1,37 +1,39 @@
 ﻿{
-  "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
-    "modulo-nome": "Cardápio Base"
-  },
-  "configuration": {
-    "target": "#menu_item_list",
-    "start-level": 0,
-    "max-level": 4,
-    "min-level": 0,
-    "prefix-name": "pages/capitulo_"
-  },
-  "pages": [
-    {
-      "placeholder": "Apresentação",
-      "url": "pages/capitulo_0.html"
+    "information": {
+        "modulo-numero": "MÓDULO 2",
+        "modulo-resumido": "M2",
+        "modulo-nome": "ESPARGIDORES DE SOLUÇÃO LACRIMOGÊNEA"
     },
-    {
-      "placeholder": "Gride",
-      "url": "pages/capitulo_1.html"
+    "configuration": {
+        "target": "#menu_item_list",
+        "start-level": 0,
+        "max-level": 3,
+        "min-level": 0,
+        "prefix-name": "pages/capitulo_"
     },
-    {
-      "placeholder": "Componentes",
-      "url": "pages/capitulo_2.html"
-    }
-    ,
-    {
-      "placeholder": "Jogos",
-      "url": "pages/capitulo_3.html"
-    },
-    {
-      "placeholder": "Animações",
-      "url": "pages/capitulo_4.html"
-    }
-  ]
+    "pages": [{
+            "placeholder": "Apresentação",
+            "url": "pages/capitulo_0.html"
+        },
+        {
+            "placeholder": "Aula 1",
+            "url": "pages/capitulo_1.html"
+        },
+        {
+            "placeholder": "Aula 2",
+            "url": "pages/capitulo_2.html"
+        },
+        {
+            "placeholder": "Aula 3",
+            "url": "pages/capitulo_3.html"
+        },
+        {
+            "placeholder": "Aula 4",
+            "url": "pages/capitulo_4.html"
+        },
+        {
+            "placeholder": "Referências",
+            "url": "pages/capitulo_5.html"
+        }
+    ]
 }
