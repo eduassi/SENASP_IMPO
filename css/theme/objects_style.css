@@ -169,6 +169,11 @@
   padding-top:25px;
   border: 3px solid var(--THEME_COLOR_MODULE_ONE_LIGHT); 
   border-bottom-left-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.caixa-destaque p{ 
+  margin-bottom: 0;
 }
 
 .caixa-destaque-icone{
@@ -247,6 +252,7 @@
   background-position: 0 0;
   background-repeat: no-repeat;
   border: none;
+  margin-bottom: 30px;
 }
 .citacao div{
   background-image: url(../../assets/images/identity/resources/citacao-r.png);
@@ -256,6 +262,7 @@
 }
 .citacao p{
   color:  var(--THEME_COLOR_MODULE_ONE_STRONG) !important;
+  margin-bottom: 0;
 }
 .box-destaque{
   width:100%;
@@ -264,6 +271,7 @@
   border-right: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
   background: #e3d6d6;
   padding: 20px 28px;
+  margin-bottom: 30px;
 }
 
 .box-destaque p{
