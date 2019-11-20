@@ -165,15 +165,15 @@
   position: relative;
   widows: 100%;
   min-height: 150px;
-  padding: 15px;
-  padding-top:25px;
+  padding: 25px 50px 25px 50px;
   border: 3px solid var(--THEME_COLOR_MODULE_ONE_LIGHT); 
   border-bottom-left-radius: 30px;
   margin-bottom: 30px;
 }
 
 .caixa-destaque p{ 
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  font-family: "Roboto Slab", serif;
 }
 
 .caixa-destaque-icone{
@@ -270,13 +270,14 @@
   border-left: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
   border-right: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
   background: #e3d6d6;
-  padding: 20px 28px;
+  padding: 25px 50px 25px 50px;
   margin-bottom: 30px;
 }
 
 .box-destaque p{
   color:  var(--THEME_COLOR_MODULE_ONE_STRONG);
-  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+
 }
 
 .video-player{
