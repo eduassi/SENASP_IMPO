@@ -180,10 +180,12 @@ figcaption {
 
 /*  H1  */
 .modulo_1 h1 {
-  background: linear-gradient(
+  /* background: linear-gradient(
     var(--THEME_COLOR_MODULE_ONE_EXTRA_LIGHT),
     var(--THEME_COLOR_MODULE_ONE)
-  );
+  ); */
+  background: var(--THEME_COLOR_MODULE_ONE_EXTRA_LIGHT);
+    
   text-transform: uppercase;
 }
 
