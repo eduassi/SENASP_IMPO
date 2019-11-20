@@ -135,6 +135,7 @@ h5 {
 figcaption {
   font-size: 0.8em;
   text-align: center;
+  font-family: "Roboto Slab", serif;
 }
 
 .modulo_1 p,
@@ -152,6 +153,7 @@ figcaption {
   color: var(--THEME_FONT_COLOR);
   font-weight: 400;
   margin-bottom: 2rem;
+  margin-top:1em;
 }
 
 .modulo_1 h1,
@@ -184,7 +186,7 @@ figcaption {
     var(--THEME_COLOR_MODULE_ONE_LIGHT),
     var(--THEME_COLOR_MODULE_ONE_LIGHT)
   );
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .modulo_2 h1 {
@@ -215,11 +217,12 @@ figcaption {
   width: 100%;
   text-transform: normal;
   font-weight: 600;
-  background-size: 100% 5px;
+  background-size: 100% 4px;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-origin: content-box;
   margin-top: 1.75rem;
-  font-size: 23pt;
+  font-size: 25pt;
 }
 
 /*  H2  */
@@ -262,16 +265,16 @@ figcaption {
   padding-top: 5px;
   margin-top: 2rem;
   font-weight: bold;
-  font-size: 18pt;
+  font-size: 20pt;
 }
 
 /*  H3  */
 .modulo_1 h3 {
   color: var(--THEME_COLOR_MODULE_ONE_STRONG);
-  background-image: linear-gradient(
-    var(--THEME_COLOR_MODULE_ONE_LIGHT),
+  /* background-image: linear-gradient( */
+    /* var(--THEME_COLOR_MODULE_ONE_LIGHT),
     var(--THEME_COLOR_MODULE_ONE_LIGHT)
-  );
+  ); */
 }
 
 .modulo_2 h3 {
@@ -307,7 +310,7 @@ figcaption {
   background-repeat: no-repeat;
   padding-left: 0;
   font-weight: bold;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 /*  H4  */
