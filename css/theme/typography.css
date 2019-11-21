@@ -220,9 +220,10 @@ figcaption {
   background-size: 100% 4px;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-origin: content-box;
+  background-origin: padding-box;
   margin-top: 1.75rem;
   font-size: 25pt;
+  padding-bottom: 10px;
 }
 
 /*  H2  */
@@ -260,9 +261,9 @@ figcaption {
 .modulo_4 h2 {
   text-transform: uppercase;
   background-position: 0 0;
-  background-size: 80px 5px;
+  background-size: 80px 3px;
   background-repeat: no-repeat;
-  padding-top: 5px;
+  padding-top: 10px;
   margin-top: 2rem;
   font-weight: bold;
   font-size: 20pt;
