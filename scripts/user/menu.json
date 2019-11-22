@@ -7,7 +7,7 @@
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 3,
+    "max-level": 5,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
