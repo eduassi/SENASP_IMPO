@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
-    "modulo-nome": "Cardápio Base"
+    "modulo-numero": "4",
+    "modulo-resumido": "M4",
+    "modulo-nome": "Módulo 4"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -17,20 +17,20 @@
       "url": "pages/capitulo_0.html"
     },
     {
-      "placeholder": "Gride",
+      "placeholder": "Aula 1",
       "url": "pages/capitulo_1.html"
     },
     {
-      "placeholder": "Componentes",
+      "placeholder": "Aula 2",
       "url": "pages/capitulo_2.html"
     }
     ,
     {
-      "placeholder": "Jogos",
+      "placeholder": "Aula 3",
       "url": "pages/capitulo_3.html"
     },
     {
-      "placeholder": "Animações",
+      "placeholder": "Aula 4",
       "url": "pages/capitulo_4.html"
     }
   ]
