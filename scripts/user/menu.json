@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "4",
-    "modulo-resumido": "M4",
-    "modulo-nome": "Módulo 4"
+    "modulo-numero": "5",
+    "modulo-resumido": "M5",
+    "modulo-nome": "Módulo 5"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -30,7 +30,7 @@
       "url": "pages/capitulo_3.html"
     },
     {
-      "placeholder": "Aula 4",
+      "placeholder": "Referências",
       "url": "pages/capitulo_4.html"
     }
   ]
