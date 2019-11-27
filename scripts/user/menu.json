@@ -24,24 +24,5 @@
       "placeholder": "Aula 2",
       "url": "pages/capitulo_2.html"
     }
-    ,
-    {
-      "placeholder": "Aula 3",
-      "url": "pages/capitulo_3.html"
-    },
-    {
-      "placeholder": "Aula 4",
-      "url": "pages/capitulo_4.html"
-    }
-    ,
-    {
-      "placeholder": "Aula 5",
-      "url": "pages/capitulo_5.html"
-    }
-    ,
-    {
-      "placeholder": "Aula 6",
-      "url": "pages/capitulo_6.html"
-    }
   ]
 }
