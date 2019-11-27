@@ -7,7 +7,7 @@
     "configuration": {
         "target": "#menu_item_list",
         "start-level": 0,
-        "max-level": 6,
+        "max-level": 5,
         "min-level": 0,
         "prefix-name": "pages/capitulo_"
     },
@@ -28,16 +28,12 @@
             "url": "pages/capitulo_3.html"
         },
         {
-            "placeholder": "Aula 4",
+            "placeholder": "Atividade",
             "url": "pages/capitulo_4.html"
         },
         {
-            "placeholder": "Atividade",
-            "url": "pages/capitulo_5.html"
-        },
-        {
             "placeholder": "Referências",
-            "url": "pages/capitulo_6.html"
+            "url": "pages/capitulo_5.html"
         }
     ]
 }
