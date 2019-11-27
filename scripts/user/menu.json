@@ -1,8 +1,27 @@
 ﻿{
+<<<<<<< HEAD
     "information": {
         "modulo-numero": "5",
         "modulo-resumido": "M5",
         "modulo-nome": "Módulo 5"
+=======
+  "information": {
+    "modulo-numero": "5",
+    "modulo-resumido": "M5",
+    "modulo-nome": "Módulo 5"
+  },
+  "configuration": {
+    "target": "#menu_item_list",
+    "start-level": 0,
+    "max-level": 6,
+    "min-level": 0,
+    "prefix-name": "pages/capitulo_"
+  },
+  "pages": [
+    {
+      "placeholder": "Apresentação",
+      "url": "pages/capitulo_0.html"
+>>>>>>> b24505e81af5c3636ca6e2696de47cce84238d42
     },
     "configuration": {
         "target": "#menu_item_list",
@@ -11,6 +30,7 @@
         "min-level": 0,
         "prefix-name": "pages/capitulo_"
     },
+<<<<<<< HEAD
     "pages": [{
             "placeholder": "Apresentação",
             "url": "pages/save_app_temp.html"
@@ -33,3 +53,30 @@
         }
     ]
 }
+=======
+    {
+      "placeholder": "Aula 2",
+      "url": "pages/capitulo_2.html"
+    }
+    ,
+    {
+      "placeholder": "Aula 3",
+      "url": "pages/capitulo_3.html"
+    },
+    {
+      "placeholder": "Aula 4",
+      "url": "pages/capitulo_4.html"
+    }
+    ,
+    {
+      "placeholder": "Atividade",
+      "url": "pages/capitulo_5.html"
+    }
+    ,
+    {
+      "placeholder": "Referências",
+      "url": "pages/capitulo_6.html"
+    }
+  ]
+}
+>>>>>>> b24505e81af5c3636ca6e2696de47cce84238d42
