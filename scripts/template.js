@@ -49,6 +49,7 @@ $(document).ready(function(){
     $("#quiz").load("recursos/quiz/quiz.html");
     $("#lss_quiz").load("recursos/lss_quiz/lss_quiz.html");
     reload();
+
 });
 
 
