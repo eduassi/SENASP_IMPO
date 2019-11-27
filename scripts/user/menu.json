@@ -23,6 +23,10 @@
     {
       "placeholder": "Aula 2",
       "url": "pages/capitulo_2.html"
+    },
+    {
+      "placeholder": "Referências",
+      "url": "pages/capitulo_3.html"
     }
   ]
 }
