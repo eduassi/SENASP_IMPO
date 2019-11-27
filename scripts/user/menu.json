@@ -7,7 +7,7 @@
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 5,
+    "max-level": 6,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
@@ -37,6 +37,11 @@
     {
       "placeholder": "Aula 5",
       "url": "pages/capitulo_5.html"
+    }
+    ,
+    {
+      "placeholder": "Aula 6",
+      "url": "pages/capitulo_6.html"
     }
   ]
 }
