@@ -50,6 +50,10 @@ a.box-dest {
 	background: #6b8e23;
 }
 
+a.btn-atividade img:hover{
+	content: url('../../assets/images/identity/atividades-btn-hover.png');
+}
+
 #sidebar-wrapper {
 	position: fixed;
 	z-index: 2;
