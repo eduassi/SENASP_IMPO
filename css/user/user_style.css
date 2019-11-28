@@ -15,10 +15,17 @@ section {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-  
+
 .image-responsive {
   width: 100%;
   margin-bottom: 32px;
+}
+
+.align-text-center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .color-box {
@@ -29,11 +36,11 @@ section {
   text-align: center;
 }
 
-.color-white{
-  color:white;
+.color-white {
+  color: white;
 }
-.color-black{
-  color:black;
+.color-black {
+  color: black;
 }
 
 .color-box p {
