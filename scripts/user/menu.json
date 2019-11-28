@@ -1,8 +1,8 @@
 ﻿{
     "information": {
-        "modulo-numero": "5",
-        "modulo-resumido": "M5",
-        "modulo-nome": "Módulo 5"
+        "modulo-numero": "3",
+        "modulo-resumido": "M3",
+        "modulo-nome": "Módulo 3"
     },
     "configuration": {
         "target": "#menu_item_list",

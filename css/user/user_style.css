@@ -50,3 +50,6 @@ section {
   border-radius: 15px;
   margin:0;
 }
+.align-text-center{
+  text-align: center;
+}
