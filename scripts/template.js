@@ -17,7 +17,8 @@ $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
 
     // modal
-    $("#btnModal1").click(function() {$("#modal-1").modal();});
+    // $("#btnModal1").click(function() {$("#modal-1").modal();});
+
     $("#carouselExampleIndicators").carousel();
     
     
