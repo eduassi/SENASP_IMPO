@@ -608,7 +608,7 @@ table td {
 
 .slide_ball {
   position: relative;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   flex-direction: column;
   height: 100%;
@@ -618,7 +618,6 @@ table td {
   color: var(--THEME_FONT_COLOR);
   font-size: 32px;
   font-weight: bold;
-  padding-top: 8px;
   border-radius: 100%;
   border: 4px solid var(--THEME_COLOR_PRIMARY);
   user-select: none; /* supported by Chrome and Opera */
