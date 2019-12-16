@@ -1,11 +1,11 @@
 .unselectable {
-    -moz-user-select: -moz-none,
-    -moz-user-select: none,
-    -o-user-select: none,
-    -khtml-user-select: none,
-    -webkit-user-select: none,
-    -ms-user-select: none,
-    user-select: none
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .dragaware {
@@ -13,17 +13,21 @@
 }
 
 .draggable_clone {
-    position: absolute; /* also set via javascript */
+    position: absolute;
+    /* also set via javascript */
     z-index: 100001;
-    pointer-events:none; /* disable mouse events on the clone */
+    pointer-events: none;
+    /* disable mouse events on the clone */
 }
 
-.draggable.dragging, .draggable .dragging {
+.draggable.dragging,
+.draggable .dragging {
     opacity: 0.5;
 }
 
 .sortable .sortable_clone {
-    position: absolute; /* also set via javascript */
+    position: absolute;
+    /* also set via javascript */
     z-index: 100001;
     list-style-type: none;
     opacity: 0.5;
