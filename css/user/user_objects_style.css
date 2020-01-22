@@ -329,3 +329,18 @@
 .modulo_1 .box-dtq div{
   border: 2px solid var(--THEME_COLOR_MODULE_ONE);
 }
+
+
+.modulo_1 .tabs .tab-pane p,
+.modulo_1 .tabs .tab-pane p,
+.modulo_1 .tabs .tab-pane ul,
+.modulo_1 .tabs .tab-pane ol,
+.modulo_1 .tabs .tab-pane h1,
+.modulo_1 .tabs .tab-pane h2,
+.modulo_1 .tabs .tab-pane h3,
+.modulo_1 .tabs .tab-pane h4,
+.modulo_1 .tabs .tab-pane h5{
+  color: white !important;
+  
+}
+ 
