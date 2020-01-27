@@ -1704,6 +1704,15 @@ a.nav-link{
 .mobile {
   display: none;
 }
+.modal-content{
+  position: fixed !important; 
+  top:10% !important; 
+  left: 0 !important; 
+  right: 0 !important; 
+  margin-left: auto !important; 
+  margin-right: auto !important;
+  max-width: 500px !important;
+}
 @media (max-width: 1199px) {
   .responsive-animated-image-one {
     width: 770px;
@@ -1723,6 +1732,10 @@ a.nav-link{
   }
 }
 @media (max-width: 567px) {
+  .modal-content{
+    max-width: 290px !important;
+}
+
   .web {
       display: none;
   }
