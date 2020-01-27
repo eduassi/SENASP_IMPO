@@ -315,6 +315,8 @@
 .box-destaque p {
     color: var(--THEME_COLOR_MODULE_ONE_STRONG);
     margin-bottom: 0;
+    font-family: "Roboto Slab", serif;
+
 }
 
 .video-player {
