@@ -8,11 +8,22 @@
 
 				<p>Para acessá-lo, clique no botão abaixo:</p>
 
-					<a class="btn-atividade" href="https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=40064" target="_blank">
-						<img class="d-block mx-auto" src="assets/images/identity/atividades-btn.png">
-					</a>
+					<!-- <a class="btn-atividade" href="https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=40064" target="_blank">
+						<img class="d-block img-fluid mx-auto" src="assets/images/identity/atividades-btn.png">
+					</a> -->
+
+					<img id="atividade" class="d-block img-fluid mx-auto pointer" src="assets/images/identity/atividades-btn.png">
 
 			</div>
 		</div>
 	</div>
 </section>
+
+
+<script>
+    $(document).ready(function() {  
+        $('#atividade').on('click', function() {
+            open('https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=40064', '_blank');
+        });
+    });
+</script>
