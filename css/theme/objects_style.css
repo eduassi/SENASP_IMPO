@@ -174,6 +174,8 @@
 .caixa-destaque p{ 
   /* margin-bottom: 0; */
   font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  color:rgb(105, 105, 105);
 }
 
 .caixa-destaque-icone{
@@ -195,7 +197,7 @@
 }
 .caixa-destaque-title{
   position: absolute;
-  width: 110px;
+  width: 150px;
   height: 30px;
   top:-15px;
   right: 20px;
@@ -206,7 +208,7 @@
   text-align: center;
   line-height: 22px;
   font-weight: 400;
-  font-size: 18px; 
+  font-size: 24px; 
   z-index:3;
 }
 
