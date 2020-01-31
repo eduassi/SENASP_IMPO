@@ -224,7 +224,7 @@ figcaption {
   margin-top: 1.75rem;
   font-size: 25pt;
   padding-bottom: 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 /*  H2  */
