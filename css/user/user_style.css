@@ -48,3 +48,14 @@ section {
 .align-text-center{
   text-align: center;
 }
+
+/* NOVO */
+.color-light{
+  color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
+}
+
+/* NOVO */
+.modal-body {
+  padding: 0 1rem;
+  margin-top: 0;
+}
