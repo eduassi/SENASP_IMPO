@@ -240,9 +240,10 @@ figcaption {
     background-size: 80px 5px;
     background-repeat: no-repeat;
     padding-top: 5px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     font-weight: bold;
     font-size: 18pt;
+    margin-top: 80px;
 }
 
 
@@ -250,7 +251,7 @@ figcaption {
 
 .modulo_1 h3 {
     color: var(--THEME_COLOR_MODULE_ONE_STRONG);
-    background-image: linear-gradient( var(--THEME_COLOR_MODULE_ONE_LIGHT), var(--THEME_COLOR_MODULE_ONE_LIGHT));
+    /* background-image: linear-gradient( var(--THEME_COLOR_MODULE_ONE_LIGHT), var(--THEME_COLOR_MODULE_ONE_LIGHT)); */
 }
 
 .modulo_2 h3 {

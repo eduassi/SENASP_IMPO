@@ -308,8 +308,8 @@
     border-left: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
     border-right: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
     background: #e3d6d6;
-    padding: 20px 28px;
-    margin-bottom: 30px;
+    padding: 25px 50px 25px 50px;
+    /* margin-bottom: 30px; */
 }
 
 .box-destaque p {
