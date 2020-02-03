@@ -59,3 +59,14 @@ section {
 .no-border{
   border: none;
 }
+
+/* NOVO */
+.color-light{
+  color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
+}
+
+/* NOVO */
+.modal-body {
+  padding: 0 1rem;
+  margin-top: 0;
+}
