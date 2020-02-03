@@ -15,12 +15,27 @@ a {
     overflow-wrap: break-word;
 }
 
+/* NOVO */
 a.box-dest {
-    background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT) !important;
-    color: #000 !important;
-    font-weight: bold !important;
-    border: 1px dashed #ff9741 !important;
-    cursor: pointer;
+	color: #000;
+	font-weight: bold !important;
+	color: var(--THEME_COLOR_MODULE_ONE) !important;
+	cursor: pointer;
+	text-decoration: underline !important;
+}
+/* NOVO */
+a.box-dest:hover {	
+	color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
+}
+
+.nav-bar {
+	position: fixed;
+	z-index: 99;
+	background: #f0fff0;
+	width: 100%;
+	min-height: 70px;
+	top: 0;
+	left: 0;
 }
 
 .nav-bar {

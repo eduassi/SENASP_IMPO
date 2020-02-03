@@ -179,7 +179,7 @@ figcaption {
 
 .modulo_1 h1 {
     background: linear-gradient( var(--THEME_COLOR_MODULE_ONE_LIGHT), var(--THEME_COLOR_MODULE_ONE_LIGHT));
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .modulo_2 h1 {
@@ -194,18 +194,22 @@ figcaption {
     background: linear-gradient( var(--THEME_COLOR_MODULE_FOUR_LIGHT), var(--THEME_COLOR_MODULE_FOUR_LIGHT));
 }
 
+/* NOVO */
 .modulo_1 h1,
 .modulo_2 h1,
 .modulo_3 h1,
 .modulo_4 h1 {
-    width: 100%;
-    text-transform: normal;
-    font-weight: 600;
-    background-size: 100% 5px;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    margin-top: 1.75rem;
-    font-size: 23pt;
+  width: 100%;
+  text-transform: normal;
+  font-weight: 600;
+  background-size: 100% 4px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-origin: padding-box;
+  margin-top: 1.75rem;
+  font-size: 25pt;
+  padding-bottom: 10px;
+  /* text-transform: uppercase; */
 }
 
 
