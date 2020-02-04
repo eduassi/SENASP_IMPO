@@ -203,9 +203,14 @@
     margin-bottom: 30px;
 }
 
-.caixa-destaque p {
-    margin-bottom: 0;
-}
+
+/* NOVO */
+.caixa-destaque p{ 
+    /* margin-bottom: 0; */
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    color:rgb(105, 105, 105);
+  }
 
 .caixa-destaque-icone {
     position: absolute;
@@ -226,11 +231,13 @@
     height: 100%;
 }
 
-.caixa-destaque-title {
+
+/* NOVO */
+.caixa-destaque-title{
     position: absolute;
-    width: 110px;
+    width: 150px;
     height: 30px;
-    top: -15px;
+    top:-15px;
     right: 20px;
     background: white;
     font-family: 'Roboto Slab', serif;
@@ -239,9 +246,9 @@
     text-align: center;
     line-height: 22px;
     font-weight: 400;
-    font-size: 18px;
-    z-index: 3;
-}
+    font-size: 24px; 
+    z-index:3;
+  }
 
 .saiba-mais {
     border: 3px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
