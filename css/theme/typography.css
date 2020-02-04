@@ -256,6 +256,7 @@ figcaption {
   );
 }
 
+/* NOVO */
 .modulo_1 h2,
 .modulo_2 h2,
 .modulo_3 h2,
@@ -268,6 +269,7 @@ figcaption {
   margin-top: 2rem;
   font-weight: bold;
   font-size: 20pt;
+  margin-top:80px;
 }
 
 /*  H3  */
@@ -303,6 +305,7 @@ figcaption {
   );
 }
 
+/* NOVO */
 .modulo_1 h3,
 .modulo_2 h3,
 .modulo_3 h3,
@@ -313,6 +316,7 @@ figcaption {
   padding-left: 0;
   font-weight: bold;
   font-size: 18pt;
+  margin-top: 60px;
 }
 
 /*  H4  */
