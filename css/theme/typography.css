@@ -269,16 +269,18 @@ figcaption {
     background-image: linear-gradient( var(--THEME_COLOR_MODULE_FOUR), var(--THEME_COLOR_MODULE_FOUR));
 }
 
+/* NOVO */
 .modulo_1 h3,
 .modulo_2 h3,
 .modulo_3 h3,
 .modulo_4 h3 {
-    background-position: bottom left;
-    background-size: 100% 1px;
-    background-repeat: no-repeat;
-    padding-left: 0;
-    font-weight: bold;
-    font-size: 16pt;
+  background-position: bottom left;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 18pt;
+  margin-top: 60px;
 }
 
 
