@@ -205,11 +205,7 @@ a.capitulo-link {
 	}
 }
 
-@media screen and (max-width: 375px) {
-	.chapter-display {
-		display: none;
-	}
-}
+
 
 a.btn-menu {
 	text-decoration: none !important;
