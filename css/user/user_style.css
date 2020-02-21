@@ -59,3 +59,9 @@ section {
   padding: 0 20px;
   margin-top: 0;
 }
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.8rem;
+}
